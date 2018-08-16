@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CryptoContribute_Example' do
+  pod 'CryptoContribute', :path => '../'
+
+  target 'CryptoContribute_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
