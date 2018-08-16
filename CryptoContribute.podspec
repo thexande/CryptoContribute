@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'CryptoContribute/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CryptoContribute' => ['CryptoContribute/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'CryptoContribute' => ['CryptoContribute/Assets/Assets.xcassets']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
    s.dependency 'Anchorage'
 end

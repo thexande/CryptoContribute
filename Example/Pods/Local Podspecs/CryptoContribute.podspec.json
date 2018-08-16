@@ -19,10 +19,12 @@
     "ios": "9.0"
   },
   "source_files": "CryptoContribute/Classes/**/*",
-  "frameworks": [
-    "UIKit",
-    "MapKit"
-  ],
+  "resource_bundles": {
+    "CryptoContribute": [
+      "CryptoContribute/Assets/Assets.xcassets"
+    ]
+  },
+  "frameworks": "UIKit",
   "dependencies": {
     "Anchorage": [
 
