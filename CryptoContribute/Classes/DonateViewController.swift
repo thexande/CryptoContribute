@@ -1,8 +1,29 @@
-import UIKit
 import Anchorage
 
+enum DonationCurrency {
+    case btc
+    case eth
+    case ltc
+
+    var title: String {
+        switch self {
+        case .btc: return "Bitcoin"
+        case .eth: return "Ethereum"
+        case .ltc: return "Litecoin"
+        }
+    }
+
+    var address: String {
+        switch self {
+        case .btc: return "3J34NbtHR6YcV4aNDv9qCAEb96tujmZ2nH"
+        case .eth: return "0x0cCB57a6617460Cf43fb6C1E00275803beD8aD0A"
+        case .ltc: return "MP29JQrv4bXx6RoPZMtYimvEi8AmLZ2xyb"
+        }
+    }
+}
+
 final class DonateViewController: UIViewController {
-    let confettiView = UIView()
+    let confettiView = ConfettiView()
     let party = UILabel()
     let header = UILabel()
     let woot = UILabel()
@@ -13,10 +34,20 @@ final class DonateViewController: UIViewController {
         return .lightContent
     }
 
-    weak var dispatcher: WalletActionDispatching? {
+    weak var dispatcher: DonateActionDispatching? {
         didSet {
             donate.dispatcher = dispatcher
         }
+    }
+
+    enum Actions {
+        enum Donation {
+            case qr(DonationCurrency)
+            case copyAddress(DonationCurrency)
+        }
+        case showDonate
+        case donate(Donation)
+        case presentDonationOptions(DonationCurrency)
     }
 
     override func viewDidLoad() {
@@ -49,7 +80,11 @@ final class DonateViewController: UIViewController {
 
         party.text = "🚀"
         party.font = UIFont.systemFont(ofSize: 60)
-        party.topAnchor == view.safeAreaLayoutGuide.topAnchor + 12
+        if #available(iOS 11.0, *) {
+            party.topAnchor == view.safeAreaLayoutGuide.topAnchor + 12
+        } else {
+            // Fallback on earlier versions
+        }
         party.centerXAnchor == view.centerXAnchor
 
         woot.textColor = .white
@@ -62,7 +97,13 @@ final class DonateViewController: UIViewController {
 
         view.addSubview(dismiss)
         dismiss.horizontalAnchors == view.horizontalAnchors + 18
-        dismiss.bottomAnchor == view.safeAreaLayoutGuide.bottomAnchor
+
+        if #available(iOS 11.0, *) {
+            dismiss.bottomAnchor == view.safeAreaLayoutGuide.bottomAnchor
+        } else {
+            // Fallback on earlier versions
+        }
+
         dismiss.heightAnchor == 50
         dismiss.setTitle("Get me outa here!", for: .normal)
         dismiss.addTarget(self, action: #selector(didTapDismiss), for: .touchUpInside)
