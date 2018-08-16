@@ -1,0 +1,6 @@
+framework module CryptoContribute {
+  umbrella header "CryptoContribute-umbrella.h"
+
+  export *
+  module * { export * }
+}

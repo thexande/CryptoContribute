@@ -1,0 +1,22 @@
+{
+  "name": "CryptoContribute",
+  "version": "0.1.0",
+  "summary": "A short description of CryptoContribute.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Alexander Murphy/CryptoContribute",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alexander Murphy": "alex.murphy@ibotta.com"
+  },
+  "source": {
+    "git": "https://github.com/Alexander Murphy/CryptoContribute.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CryptoContribute/Classes/**/*"
+}
