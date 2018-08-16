@@ -40,5 +40,5 @@ TODO: Add long description of the pod here.
    s.frameworks = 'UIKit'
    s.dependency 'Anchorage'
    s.dependency 'QRCode'
-   s.dependency 'SAConfettiView'
+   # s.dependency 'SAConfettiView'
 end

@@ -7,221 +7,162 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02F915340D80A714EA136787667AF197 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4820AF65C8ECE4A837556FD97818B0 /* star.png */; };
-		068E1D81BF6F2EB48E06E1E5988FE8D5 /* Anchorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54163540CBDBBA9AFCCE8E6083BF0EFD /* Anchorage-dummy.m */; };
-		0B0C72B5ECC498C14EC52829848DC348 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 3485455B619EC29308494A91A6B35A76 /* confetti.png */; };
-		0E86726A57C3474C3114CC912C024F3F /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74411455FCC8129658F2361AE9F612C0 /* UIAlertController.swift */; };
-		101784DB4E9011A49B3ECBD44999A3AB /* AnchorGroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EC8CE89B0F9485BF9D880392C1B158 /* AnchorGroupProvider.swift */; };
-		116A78960F8E420D29C025EB6807E9E6 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBB297421C07CC4A7CCB61C771529BD /* DonateView.swift */; };
-		1CC1F3287739E089FAA03B2E9E23FFD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93AD659138DF42ABC34F70EA821BB7D /* UIKit.framework */; };
-		2510A66801F2937A4FA56225D6A50FDB /* NSLayoutAnchor+MultiplierConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94DAA5DFA2C23A495C740B31183E85B /* NSLayoutAnchor+MultiplierConstraints.swift */; };
+		068E1D81BF6F2EB48E06E1E5988FE8D5 /* Anchorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F4897952C74801D87638631716DCA0 /* Anchorage-dummy.m */; };
+		09437FF16A36CE3295B2A43A29CBC8E7 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD05A82345C8D1958B03B019F6F1649 /* ConfettiView.swift */; };
+		0E08579388D44F4AB36270FE0F48E1B2 /* CryptoContribute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D55B44AAFB85C34264712687704BB0 /* CryptoContribute-dummy.m */; };
+		101784DB4E9011A49B3ECBD44999A3AB /* AnchorGroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D0F117CE06DB30A881FE8CD637FB7 /* AnchorGroupProvider.swift */; };
+		209FE9D4532131E6AAB83437E119C9F8 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F764287110457EB99296C261797482E7 /* WhiteButton.swift */; };
+		2510A66801F2937A4FA56225D6A50FDB /* NSLayoutAnchor+MultiplierConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EBD7B3F3056AF41B9ABC2BE6E51E5E /* NSLayoutAnchor+MultiplierConstraints.swift */; };
 		25E45C6115AF8DBB60CCAA73C18A17AF /* Pods-CryptoContribute_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14600B3AE9FC2A5FEEEE4A253AE0C2A2 /* Pods-CryptoContribute_Tests-dummy.m */; };
-		36B75922D81D9E68B269B7F50C227C0B /* Anchorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9985C02B71F21BC746FA049DC949122 /* Anchorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B31C16C0764F58F9E8C5D29A05B18AC /* SAConfettiView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5AFF4490ADE527BD08E17F1C4EFDB7 /* SAConfettiView.framework */; };
-		3DBABFCFA46A00B834AE634057010229 /* Anchorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434A2D614062CD18BE018223D926329D /* Anchorage.framework */; };
-		3E0D96225BBE2EC1C6970B764C974720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CB313128D824F679DF974FE0AA29CC /* Foundation.framework */; };
-		47C2065A3F0F8AA8A403E2B0E4B430FB /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B84F35F53F8608605304142D5B8C1E7 /* DonateViewController.swift */; };
-		47E8A6A5783643085B59D5D76647AD86 /* Pods-CryptoContribute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C74D8D5AA52D03E954E4F8B9D93550EB /* Pods-CryptoContribute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F896758B2E917A9B97DF6C1036A4F44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93AD659138DF42ABC34F70EA821BB7D /* UIKit.framework */; };
-		656F0473416D670003D4FF6D70D23559 /* CryptoContribute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 304C7BD954D9EEBCB2DE6940FC2CB853 /* CryptoContribute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		691D775FF24BE2283ED7C17572194D0F /* CIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2092432E7D49A608386A47AA6B3688EE /* CIImageExtension.swift */; };
-		6929A18231635B7AC9E1C64F2C6A9729 /* Anchorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF2E02EC24638C0C746992E121699A /* Anchorage.swift */; };
-		6B62A5819D357CFDCB1879C4EA9D3EAE /* SAConfettiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D0E75452367EACA0EE4323791EE478 /* SAConfettiView-dummy.m */; };
-		6D1B90FADCEC885E68A1AF6B4C241740 /* Compatability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86B1353264BF4888732F02D6AAE81E1 /* Compatability.swift */; };
-		6DCA71D6567141BDF1E9B42F8524BA34 /* ContributeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFD5C9A2CFC5F36849EEFBE4272A0DD /* ContributeCoordinator.swift */; };
-		6FAC8EC2E2956999FCC33DBDADE43120 /* QRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9111351CDAE2B7A759993A0A22FBA6 /* QRCode-dummy.m */; };
-		775ADBEE76EF58D505A6EE4A4F19BC3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CB313128D824F679DF974FE0AA29CC /* Foundation.framework */; };
-		8A9C7E8B561AC9138D38389969222499 /* ClosureProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E88F9B4AE8158604330471C25434AD /* ClosureProxy.swift */; };
-		953E79C8AF2E7C9BAD6DE7CB8899B69D /* SAConfettiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1740BC4B4EC86C00AE940F6E317A7204 /* SAConfettiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		994F86149686529DA0A550ACD3B8CCA9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D8668D4BF603B0C6D0AF57ED85E82D /* QuartzCore.framework */; };
-		9969ED8D2CADAA5A8CC337AF414A3A48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CB313128D824F679DF974FE0AA29CC /* Foundation.framework */; };
-		9B20235C5C3DB5D7D351F8A9384D9CAE /* CryptoContribute.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B6F676B13155601448B54563D2C4330 /* CryptoContribute.bundle */; };
-		9B308B0CC76AAA7E6B07C777598EB3CB /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799DE3E5841A64B5E9367502E85C96DA /* ConfettiView.swift */; };
-		9D22F1C656C6DF7A56C7244529D023B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CB313128D824F679DF974FE0AA29CC /* Foundation.framework */; };
-		ABBEB1EBED5F9362930BFAA22404E694 /* QRCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0DEAC8541314C367931873A0C55F0B /* QRCode.framework */; };
-		AF440B73367770EAB117472F6C328A23 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99889DFCC633969D1B94033C6855E10 /* Priority.swift */; };
-		B88DBB875F7D9CA9D672B1C2F9244B71 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDA676ADC2E68706CEA43330EAB8E91 /* diamond.png */; };
-		C0BA2190DFF75469BD05D53B2AE4E8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CB313128D824F679DF974FE0AA29CC /* Foundation.framework */; };
-		C475200B51063FC3CC3749CD2E0E0AD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CB313128D824F679DF974FE0AA29CC /* Foundation.framework */; };
-		C76E6972D7066CD12F2A11E1F5AECDA1 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484EC89B38656D4E2FA21381021D09EE /* UIImageViewExtension.swift */; };
-		C84D1D3D37BD9E677DD0D75A3B465839 /* Pods-CryptoContribute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 334EEB22B2BE287F5A84E469A4EFF2A1 /* Pods-CryptoContribute_Example-dummy.m */; };
-		C97D1FCF7609F1DB13945C31D0AF7B38 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD2E1A6D24C1B256BC5304C6AE56724 /* triangle.png */; };
-		D324CF7C54A3BEA11613D7DF51BA3E88 /* QRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8230B78341651A20C13F62E471987F /* QRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0A8B2C60396294C63C89C4DE1C7C3C2 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC810C4E0B0E70E63DF103E03BC16E /* Internal.swift */; };
-		E13D86A08F56E2AF43DCCEC5280DCA85 /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A39FC102C376A9BCD84DD56581CAA /* CIColorExtension.swift */; };
-		E2986A28D8688F9562D5401D5046D2EF /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508951DDD706EECF97AD93E81D735B47 /* WhiteButton.swift */; };
-		E886AE8A900DC423AF7B88511CA89A19 /* CryptoContribute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B90F5FA7FF8D8D07E2C84318A504F79A /* CryptoContribute-dummy.m */; };
-		F0C7B8905B774C95DB3633252B81613E /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64E2FF157A41CDB3C6720FDE41B782 /* QRCode.swift */; };
-		F37C01210813B3C607D8BB6BD60C8B4F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B9A3AE47F8F9F7123C94D9BB095760 /* File.swift */; };
+		2A2B07FEC2AAE806F9144480CCD984D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641442F35C9E3421F91A64E6961C59C2 /* Foundation.framework */; };
+		35C9D9358996E743BABB2292978334A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641442F35C9E3421F91A64E6961C59C2 /* Foundation.framework */; };
+		36B75922D81D9E68B269B7F50C227C0B /* Anchorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1694EB18D451F951B637D0D36558E9 /* Anchorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		378D7CB5A86B646795F6B7712B01920E /* CryptoContribute.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA0F458E1FE3B67B011D59C8D34E8510 /* CryptoContribute.bundle */; };
+		37BACD770334B208489538AFBC122F25 /* ContributeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16CF6B5DB2EE6297784C6ECC046AD8 /* ContributeCoordinator.swift */; };
+		3E0066E946FF6C972D9F8D8C5A6C81FD /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49000940E07450B7D796EE96666A5F8 /* CIColorExtension.swift */; };
+		47B614DD4DD6DEF4B5438ED8410D842C /* Pods-CryptoContribute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 334EEB22B2BE287F5A84E469A4EFF2A1 /* Pods-CryptoContribute_Example-dummy.m */; };
+		573800EA1A9B4FB521937760B3834DB2 /* QRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8723C16C3CB825714A86CDD79D7ABFD6 /* QRCode-dummy.m */; };
+		63E5DB0562E451216E104CB95CF10108 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC6B936F8EF102403E712B2DF45209 /* DonateViewController.swift */; };
+		6929A18231635B7AC9E1C64F2C6A9729 /* Anchorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595C545826FC509694DBFF7E2A15693 /* Anchorage.swift */; };
+		6D1B90FADCEC885E68A1AF6B4C241740 /* Compatability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBED75A527A6656B06960757DC10BA7 /* Compatability.swift */; };
+		73DD7705A3AAF33BA1CC751453B9546A /* ClosureProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070592CEB5F434A6C94688B55DBF4E05 /* ClosureProxy.swift */; };
+		775ADBEE76EF58D505A6EE4A4F19BC3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641442F35C9E3421F91A64E6961C59C2 /* Foundation.framework */; };
+		7EC0221FD602D4B6741144050A9A8BF9 /* Pods-CryptoContribute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C74D8D5AA52D03E954E4F8B9D93550EB /* Pods-CryptoContribute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85A3FF47DA4B954D5CE4AED1FAB28783 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F404EC68724A74E43BA85B33B6F7300 /* UIKit.framework */; };
+		891ECE71677B9438269903AB82BBA965 /* CIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364918E9341688C1FB776FADC34EB912 /* CIImageExtension.swift */; };
+		8C553B25C833AAD983212D436FA4AEBB /* QRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC9220DD5479A9C1A2E11C5B5159004 /* QRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90066E55AC6B82936F27B675C20E80AA /* QRCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4C0C65810189D1722EE87C4CA2A6DD /* QRCode.framework */; };
+		94C8B6C5352CBFDEF063CDC7B2CA9319 /* Anchorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6720BF3061BC4018450048362A3E6D5 /* Anchorage.framework */; };
+		94EE5FD71D16B591FAAF0C48E506E8C5 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99D725CCD11BA63598A8BB1058EF83 /* DonateView.swift */; };
+		9CC5685D09C0F839612A1D168043AEBC /* QRDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69508271AF33E1E8666DBBCE5C3AF6E7 /* QRDisplayViewController.swift */; };
+		A4F8A80A88F77E90D599181C99AFFB83 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE572DCD6A480C2EEA1BF4B4BFBBB5D /* QRCode.swift */; };
+		AF440B73367770EAB117472F6C328A23 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC680107D607CB9AD14ACE698E85E457 /* Priority.swift */; };
+		B464F198EE997C523E2F203D114DDB90 /* CryptoContribute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 997199519472FB2BA562E18CA1627449 /* CryptoContribute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5962A8B46E1F9202A25E5B89102300 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2131692639E84C138FC0EED7B79C70 /* UIImageViewExtension.swift */; };
+		C0BA2190DFF75469BD05D53B2AE4E8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641442F35C9E3421F91A64E6961C59C2 /* Foundation.framework */; };
+		E0A8B2C60396294C63C89C4DE1C7C3C2 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634D68FA2E8E92189DC56154259EB0E /* Internal.swift */; };
+		E57AEBFF3D632F46983158E794D51579 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641442F35C9E3421F91A64E6961C59C2 /* Foundation.framework */; };
 		F7815DDACC48B93BD126B20D5127BE23 /* Pods-CryptoContribute_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D37DC32FA1D14F08A7F6BD7EF96BCF38 /* Pods-CryptoContribute_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE25B9E73DD833C22C3BD792E67A0364 /* SAConfettiView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D5BB477A44B253092F007957251CA12A /* SAConfettiView.bundle */; };
-		FFF82E9D127F16A20D54072299BF15D9 /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8349BA744F93AD5CDA9D0E05AEC61F /* SAConfettiView.swift */; };
+		FDCAF97FB9ADB6FBC9D5D22F26350353 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1F9DCEA53F78526D5C0AC3A10A947E /* UIAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23AB60F640B66A182AD3B751E49E67EC /* PBXContainerItemProxy */ = {
+		1824EE13631053DEE5613246D5B8BC55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EDFADDD27E9AE133283F4BFCC355134F;
 			remoteInfo = Anchorage;
 		};
-		850B5F2A3C11491C63A9719AE3981B39 /* PBXContainerItemProxy */ = {
+		1CF4375267E5676DC1730E132B1F7704 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AD22C82B1C5A896052DBA3C9A21CB871;
-			remoteInfo = QRCode;
-		};
-		93E0AC3171B6ACDAFE56D4DEEEDB588A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EDFADDD27E9AE133283F4BFCC355134F;
-			remoteInfo = Anchorage;
-		};
-		98B6A948BA49DF6CE229722BFBAFACDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52B29239705EC40B576D72515200C3DC;
+			remoteGlobalIDString = 00A08DDE9D9458B3A5D37C274B53350A;
 			remoteInfo = "CryptoContribute-CryptoContribute";
 		};
-		B5C1049B3D09C66AD7FC97F94A49573A /* PBXContainerItemProxy */ = {
+		1F0C97DB1BE640D31FA3E8F76CD5EACF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2D2BDDC33C588919617212EC7FAFCD7;
-			remoteInfo = CryptoContribute;
-		};
-		CA6BFD9822430DE4C68E7873AEE655F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C7DAB63EB72596B35AA62DB97B4E1862;
-			remoteInfo = "SAConfettiView-SAConfettiView";
-		};
-		CE9BF003CFAF643D4AAE830253666B0A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 095ADD8519DB05D6FC93EDD56F7BC9F6;
-			remoteInfo = SAConfettiView;
-		};
-		D3BD15B0F299BA0DD9D3EAD4C8FB0D65 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD22C82B1C5A896052DBA3C9A21CB871;
+			remoteGlobalIDString = F9BB9799075E216AA57338646BAB1245;
 			remoteInfo = QRCode;
 		};
-		EDCC4A939864DA035706F527319355B3 /* PBXContainerItemProxy */ = {
+		51091F78C9F7A22B770D9E4ED946B262 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 095ADD8519DB05D6FC93EDD56F7BC9F6;
-			remoteInfo = SAConfettiView;
+			remoteGlobalIDString = 038845BEC855AE676EA8FFFEE8B2149F;
+			remoteInfo = CryptoContribute;
+		};
+		7EDAF59E0A79D4EC492AA5C8DA6B11DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BB9799075E216AA57338646BAB1245;
+			remoteInfo = QRCode;
+		};
+		DA1A919CF7E4EE8A06415E99231E8A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFADDD27E9AE133283F4BFCC355134F;
+			remoteInfo = Anchorage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07EDAA825CF6607733793C46CB53ECAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E4820AF65C8ECE4A837556FD97818B0 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = Pod/Assets/star.png; sourceTree = "<group>"; };
-		0E8349BA744F93AD5CDA9D0E05AEC61F /* SAConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAConfettiView.swift; path = Pod/Classes/SAConfettiView.swift; sourceTree = "<group>"; };
-		0FB214C1FD3E7070214E6FC5E5EC57C5 /* CryptoContribute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoContribute.xcconfig; sourceTree = "<group>"; };
+		00A1EB4E0944DA4A50ED924675DB830A /* QRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCode.framework; path = QRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		070592CEB5F434A6C94688B55DBF4E05 /* ClosureProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClosureProxy.swift; path = CryptoContribute/Classes/ClosureProxy.swift; sourceTree = "<group>"; };
+		0BBED75A527A6656B06960757DC10BA7 /* Compatability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compatability.swift; path = Source/Compatability.swift; sourceTree = "<group>"; };
 		14600B3AE9FC2A5FEEEE4A253AE0C2A2 /* Pods-CryptoContribute_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoContribute_Tests-dummy.m"; sourceTree = "<group>"; };
+		1634D68FA2E8E92189DC56154259EB0E /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internal.swift; path = Source/Internal.swift; sourceTree = "<group>"; };
 		166160DA6E8E5E741AF06A4E28E51E39 /* Pods-CryptoContribute_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoContribute_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		16A6104894F2661D2AE0522F740031FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1740BC4B4EC86C00AE940F6E317A7204 /* SAConfettiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-umbrella.h"; sourceTree = "<group>"; };
-		178A39FC102C376A9BCD84DD56581CAA /* CIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIColorExtension.swift; path = QRCode/CIColorExtension.swift; sourceTree = "<group>"; };
-		1CA1E01AE16D7F9F72E110258B741358 /* Anchorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Anchorage.modulemap; sourceTree = "<group>"; };
-		1CC76A76EEE9F6FC31C6B09BF3AD66BD /* SAConfettiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAConfettiView.modulemap; sourceTree = "<group>"; };
-		1F64E2FF157A41CDB3C6720FDE41B782 /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = QRCode/QRCode.swift; sourceTree = "<group>"; };
-		2092432E7D49A608386A47AA6B3688EE /* CIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIImageExtension.swift; path = QRCode/CIImageExtension.swift; sourceTree = "<group>"; };
-		2698B87EF9F07816E918AFF33FD2410A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B61C9BD7AD90980B93EFD9F71BD0B99 /* Anchorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Anchorage.modulemap; sourceTree = "<group>"; };
+		1F16CF6B5DB2EE6297784C6ECC046AD8 /* ContributeCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContributeCoordinator.swift; path = CryptoContribute/Classes/ContributeCoordinator.swift; sourceTree = "<group>"; };
+		1F404EC68724A74E43BA85B33B6F7300 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		29DCA2A1D6886D32AED529AEBE052ED0 /* Pods-CryptoContribute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoContribute_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2CD2E1A6D24C1B256BC5304C6AE56724 /* triangle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = triangle.png; path = Pod/Assets/triangle.png; sourceTree = "<group>"; };
-		304C7BD954D9EEBCB2DE6940FC2CB853 /* CryptoContribute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoContribute-umbrella.h"; sourceTree = "<group>"; };
-		32A73FBF6F014D1912C271CAC92C6047 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32AFDF6AADD0824F1F1F35BB6C801021 /* Anchorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Anchorage.framework; path = Anchorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		334EEB22B2BE287F5A84E469A4EFF2A1 /* Pods-CryptoContribute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoContribute_Example-dummy.m"; sourceTree = "<group>"; };
-		3485455B619EC29308494A91A6B35A76 /* confetti.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = confetti.png; path = Pod/Assets/confetti.png; sourceTree = "<group>"; };
-		39CC810C4E0B0E70E63DF103E03BC16E /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internal.swift; path = Source/Internal.swift; sourceTree = "<group>"; };
-		3A9111351CDAE2B7A759993A0A22FBA6 /* QRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCode-dummy.m"; sourceTree = "<group>"; };
-		3B6F676B13155601448B54563D2C4330 /* CryptoContribute.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CryptoContribute.bundle; path = CryptoContribute.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E90385EA5E53D82C5964B8BB96E55D /* CryptoContribute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoContribute-prefix.pch"; sourceTree = "<group>"; };
+		364918E9341688C1FB776FADC34EB912 /* CIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIImageExtension.swift; path = QRCode/CIImageExtension.swift; sourceTree = "<group>"; };
+		38CE11D9F6564E6C44A1D03CEBBF71BB /* CryptoContribute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoContribute.framework; path = CryptoContribute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EBD7B3F3056AF41B9ABC2BE6E51E5E /* NSLayoutAnchor+MultiplierConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutAnchor+MultiplierConstraints.swift"; path = "Source/NSLayoutAnchor+MultiplierConstraints.swift"; sourceTree = "<group>"; };
 		3E89F6F5D803AC0392641FA654C90131 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		434A2D614062CD18BE018223D926329D /* Anchorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Anchorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		484EC89B38656D4E2FA21381021D09EE /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = QRCode/UIImageViewExtension.swift; sourceTree = "<group>"; };
-		498B73CBC534DBB7B8512A8F843710DE /* Anchorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Anchorage-prefix.pch"; sourceTree = "<group>"; };
+		3F4C0C65810189D1722EE87C4CA2A6DD /* QRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2C2E7514C88EF4E8689E2AA544E127 /* Pods-CryptoContribute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoContribute_Example.release.xcconfig"; sourceTree = "<group>"; };
-		508951DDD706EECF97AD93E81D735B47 /* WhiteButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhiteButton.swift; path = CryptoContribute/Classes/WhiteButton.swift; sourceTree = "<group>"; };
-		53E88F9B4AE8158604330471C25434AD /* ClosureProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClosureProxy.swift; path = CryptoContribute/Classes/ClosureProxy.swift; sourceTree = "<group>"; };
-		54163540CBDBBA9AFCCE8E6083BF0EFD /* Anchorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Anchorage-dummy.m"; sourceTree = "<group>"; };
-		5A846A0BC731EE0AE9292C5E59E0BCAD /* SAConfettiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAConfettiView.framework; path = SAConfettiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E215D7C804E82805CF279A2FCD69F87 /* Pods-CryptoContribute_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoContribute_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		61D8668D4BF603B0C6D0AF57ED85E82D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		60A0A8F92EFC01DD46E2A3D76C22B466 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		621E56E5416D8ED52CB48A4D65C0DDCE /* Pods-CryptoContribute_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoContribute_Tests.modulemap"; sourceTree = "<group>"; };
-		643DB8CCE8268C7823A0ACCA60EC0959 /* Anchorage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Anchorage.xcconfig; sourceTree = "<group>"; };
+		62A65C362B535AC16C601DD7EABAE51B /* Anchorage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Anchorage.xcconfig; sourceTree = "<group>"; };
+		641442F35C9E3421F91A64E6961C59C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		64AAD6018749B64FF2B97C6C184D1BD1 /* Pods-CryptoContribute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoContribute_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		67B9A3AE47F8F9F7123C94D9BB095760 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = CryptoContribute/Classes/File.swift; sourceTree = "<group>"; };
-		74411455FCC8129658F2361AE9F612C0 /* UIAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAlertController.swift; path = CryptoContribute/Classes/UIAlertController.swift; sourceTree = "<group>"; };
+		68425F8734380FDE0BE2281C782A2728 /* Anchorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Anchorage.framework; path = Anchorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69508271AF33E1E8666DBBCE5C3AF6E7 /* QRDisplayViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRDisplayViewController.swift; path = CryptoContribute/Classes/QRDisplayViewController.swift; sourceTree = "<group>"; };
+		6A97CB144D8168FA9779CC9E06E7A97F /* ResourceBundle-CryptoContribute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CryptoContribute-Info.plist"; sourceTree = "<group>"; };
+		6EC9220DD5479A9C1A2E11C5B5159004 /* QRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCode-umbrella.h"; sourceTree = "<group>"; };
+		71D55B44AAFB85C34264712687704BB0 /* CryptoContribute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoContribute-dummy.m"; sourceTree = "<group>"; };
+		71F4897952C74801D87638631716DCA0 /* Anchorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Anchorage-dummy.m"; sourceTree = "<group>"; };
 		7580F3709548B3402B1220101DE863C4 /* Pods-CryptoContribute_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoContribute_Example-frameworks.sh"; sourceTree = "<group>"; };
-		75B3D7BC17024F35499145D6598234F8 /* QRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCode.framework; path = QRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7737B810612EFC25C9DE7CF3BFC7A088 /* Pods-CryptoContribute_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoContribute_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		79315CEB0751BD5A3FC85F194C205331 /* Pods-CryptoContribute_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoContribute_Example-resources.sh"; sourceTree = "<group>"; };
-		799DE3E5841A64B5E9367502E85C96DA /* ConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfettiView.swift; path = CryptoContribute/Classes/ConfettiView.swift; sourceTree = "<group>"; };
-		7EFD5C9A2CFC5F36849EEFBE4272A0DD /* ContributeCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContributeCoordinator.swift; path = CryptoContribute/Classes/ContributeCoordinator.swift; sourceTree = "<group>"; };
+		7A1694EB18D451F951B637D0D36558E9 /* Anchorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Anchorage-umbrella.h"; sourceTree = "<group>"; };
+		7CD05A82345C8D1958B03B019F6F1649 /* ConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfettiView.swift; path = CryptoContribute/Classes/ConfettiView.swift; sourceTree = "<group>"; };
+		7D99D725CCD11BA63598A8BB1058EF83 /* DonateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DonateView.swift; path = CryptoContribute/Classes/DonateView.swift; sourceTree = "<group>"; };
 		81DB583AF1715BF4D22065195BB3E285 /* Pods-CryptoContribute_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoContribute_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A8230B78341651A20C13F62E471987F /* QRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCode-umbrella.h"; sourceTree = "<group>"; };
-		8D0DEAC8541314C367931873A0C55F0B /* QRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8595C545826FC509694DBFF7E2A15693 /* Anchorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchorage.swift; path = Source/Anchorage.swift; sourceTree = "<group>"; };
+		8723C16C3CB825714A86CDD79D7ABFD6 /* QRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCode-dummy.m"; sourceTree = "<group>"; };
+		89B836277F932625F2A82FB55D167779 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ED7DED2E29CB3148FD8C0ECB0E871AD /* Pods-CryptoContribute_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoContribute_Example.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		966F8B3A4DDE3230548AB32A8D4CF253 /* CryptoContribute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoContribute.framework; path = CryptoContribute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99EC8CE89B0F9485BF9D880392C1B158 /* AnchorGroupProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnchorGroupProvider.swift; path = Source/AnchorGroupProvider.swift; sourceTree = "<group>"; };
-		9B84F35F53F8608605304142D5B8C1E7 /* DonateViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DonateViewController.swift; path = CryptoContribute/Classes/DonateViewController.swift; sourceTree = "<group>"; };
-		9BBC5C9D17FDD3C8B89C9018701BF29E /* Pods_CryptoContribute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoContribute_Example.framework; path = "Pods-CryptoContribute_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D866FFA4F0DCAD2D8ED254D9E7C8A1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A004AAB2B0764689CCF82523D8B65D89 /* CryptoContribute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoContribute-prefix.pch"; sourceTree = "<group>"; };
-		AA5AFF4490ADE527BD08E17F1C4EFDB7 /* SAConfettiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAConfettiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB80577E7C863990F44B26D52567F8AF /* ResourceBundle-SAConfettiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SAConfettiView-Info.plist"; sourceTree = "<group>"; };
-		B090F0E321BD85FC3A4013AF324DC9EF /* QRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCode-prefix.pch"; sourceTree = "<group>"; };
-		B5D0E75452367EACA0EE4323791EE478 /* SAConfettiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAConfettiView-dummy.m"; sourceTree = "<group>"; };
-		B90F5FA7FF8D8D07E2C84318A504F79A /* CryptoContribute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoContribute-dummy.m"; sourceTree = "<group>"; };
-		B9985C02B71F21BC746FA049DC949122 /* Anchorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Anchorage-umbrella.h"; sourceTree = "<group>"; };
-		BEDA676ADC2E68706CEA43330EAB8E91 /* diamond.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = diamond.png; path = Pod/Assets/diamond.png; sourceTree = "<group>"; };
+		944D0F117CE06DB30A881FE8CD637FB7 /* AnchorGroupProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnchorGroupProvider.swift; path = Source/AnchorGroupProvider.swift; sourceTree = "<group>"; };
+		95B28B11FBE0CD1154DF263CC3C3420C /* QRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCode-prefix.pch"; sourceTree = "<group>"; };
+		9730BE2022E4E57B86A1DAC079D950EF /* CryptoContribute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoContribute.xcconfig; sourceTree = "<group>"; };
+		997199519472FB2BA562E18CA1627449 /* CryptoContribute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoContribute-umbrella.h"; sourceTree = "<group>"; };
+		9AE572DCD6A480C2EEA1BF4B4BFBBB5D /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = QRCode/QRCode.swift; sourceTree = "<group>"; };
+		9EAC857058655742C61F497141DC26C4 /* Pods_CryptoContribute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoContribute_Example.framework; path = "Pods-CryptoContribute_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A337C9D7E2A216B395A0C201FF7E952A /* Pods_CryptoContribute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoContribute_Tests.framework; path = "Pods-CryptoContribute_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFC6B936F8EF102403E712B2DF45209 /* DonateViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DonateViewController.swift; path = CryptoContribute/Classes/DonateViewController.swift; sourceTree = "<group>"; };
+		C35B2778CB9EF0808E20CCC94F91A5FE /* Anchorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Anchorage-prefix.pch"; sourceTree = "<group>"; };
 		C74D8D5AA52D03E954E4F8B9D93550EB /* Pods-CryptoContribute_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoContribute_Example-umbrella.h"; sourceTree = "<group>"; };
-		C7D5A365D2D4DB68F51BDB5DA4B50F07 /* SAConfettiView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAConfettiView.xcconfig; sourceTree = "<group>"; };
-		C86B1353264BF4888732F02D6AAE81E1 /* Compatability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compatability.swift; path = Source/Compatability.swift; sourceTree = "<group>"; };
-		C93AD659138DF42ABC34F70EA821BB7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		CAA5E57C178ED2B2BCEE2EC9534BC7F8 /* SAConfettiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-prefix.pch"; sourceTree = "<group>"; };
+		CA1F9DCEA53F78526D5C0AC3A10A947E /* UIAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAlertController.swift; path = CryptoContribute/Classes/UIAlertController.swift; sourceTree = "<group>"; };
 		D37DC32FA1D14F08A7F6BD7EF96BCF38 /* Pods-CryptoContribute_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoContribute_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D3CB313128D824F679DF974FE0AA29CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D500CE777121230F9C3421290ADC391F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5B775F534E09D27524C388E5B235A89 /* Pods-CryptoContribute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoContribute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5BB477A44B253092F007957251CA12A /* SAConfettiView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SAConfettiView.bundle; path = SAConfettiView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7F7C472990C284FA14EA7846D4B072C /* Pods_CryptoContribute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoContribute_Tests.framework; path = "Pods-CryptoContribute_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCBB297421C07CC4A7CCB61C771529BD /* DonateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DonateView.swift; path = CryptoContribute/Classes/DonateView.swift; sourceTree = "<group>"; };
-		DF76C6A3B6DBDFABE691C345EA2DB261 /* CryptoContribute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CryptoContribute.modulemap; sourceTree = "<group>"; };
+		D9F46FF0BCDA6D23808CE237D26F46FB /* QRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCode.modulemap; sourceTree = "<group>"; };
 		E5F17E552D99196F7F5084B02C0F88F8 /* Pods-CryptoContribute_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoContribute_Tests-resources.sh"; sourceTree = "<group>"; };
-		ED56B21991AF3CA66161C6CF65F716BC /* QRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCode.xcconfig; sourceTree = "<group>"; };
-		F133F7AED6FFD88479AD312FF0012410 /* ResourceBundle-CryptoContribute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CryptoContribute-Info.plist"; sourceTree = "<group>"; };
+		EA0F458E1FE3B67B011D59C8D34E8510 /* CryptoContribute.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CryptoContribute.bundle; path = CryptoContribute.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC680107D607CB9AD14ACE698E85E457 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Source/Priority.swift; sourceTree = "<group>"; };
+		EE2131692639E84C138FC0EED7B79C70 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = QRCode/UIImageViewExtension.swift; sourceTree = "<group>"; };
+		EE77AE6AE3DB136B47F940FC9488209F /* QRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCode.xcconfig; sourceTree = "<group>"; };
 		F249CB3924C1662F96A02EC6698F742C /* Pods-CryptoContribute_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoContribute_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F890D11A5149BEC066ACE08B66660610 /* QRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCode.modulemap; sourceTree = "<group>"; };
-		F94DAA5DFA2C23A495C740B31183E85B /* NSLayoutAnchor+MultiplierConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutAnchor+MultiplierConstraints.swift"; path = "Source/NSLayoutAnchor+MultiplierConstraints.swift"; sourceTree = "<group>"; };
-		F99889DFCC633969D1B94033C6855E10 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Source/Priority.swift; sourceTree = "<group>"; };
-		FADF2E02EC24638C0C746992E121699A /* Anchorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchorage.swift; path = Source/Anchorage.swift; sourceTree = "<group>"; };
+		F49000940E07450B7D796EE96666A5F8 /* CIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIColorExtension.swift; path = QRCode/CIColorExtension.swift; sourceTree = "<group>"; };
+		F6720BF3061BC4018450048362A3E6D5 /* Anchorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Anchorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F764287110457EB99296C261797482E7 /* WhiteButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhiteButton.swift; path = CryptoContribute/Classes/WhiteButton.swift; sourceTree = "<group>"; };
+		FBDBD53B8C4371247839E4A664AAAB23 /* CryptoContribute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CryptoContribute.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05C02A8D3E50BE9070117D23495812B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E0D96225BBE2EC1C6970B764C974720 /* Foundation.framework in Frameworks */,
-				994F86149686529DA0A550ACD3B8CCA9 /* QuartzCore.framework in Frameworks */,
-				1CC1F3287739E089FAA03B2E9E23FFD7 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0C93F3D550334D531349BDA564437973 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,11 +171,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DAAE7B1332BD02BCDC30326C8203ED5 /* Frameworks */ = {
+		42E3714689306EF30584800C60C2CA48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C475200B51063FC3CC3749CD2E0E0AD5 /* Foundation.framework in Frameworks */,
+				35C9D9358996E743BABB2292978334A1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,54 +187,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86F0687B3D3F18E7DA93385CDB5939DA /* Frameworks */ = {
+		A887522F9ECEFA1B2940A095CC160485 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8C8986519CBE1102E3EA189F341D1E8 /* Frameworks */ = {
+		AF7468FA0CD1E4528673BB8DD1F52FC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D22F1C656C6DF7A56C7244529D023B1 /* Foundation.framework in Frameworks */,
+				2A2B07FEC2AAE806F9144480CCD984D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E51674214D87C1B59F0B64AA2FCBD074 /* Frameworks */ = {
+		CD2CC93C89771C2B0412EF016B16C1A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA04485FCB718B6F8CD0011BB083F916 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3DBABFCFA46A00B834AE634057010229 /* Anchorage.framework in Frameworks */,
-				9969ED8D2CADAA5A8CC337AF414A3A48 /* Foundation.framework in Frameworks */,
-				ABBEB1EBED5F9362930BFAA22404E694 /* QRCode.framework in Frameworks */,
-				3B31C16C0764F58F9E8C5D29A05B18AC /* SAConfettiView.framework in Frameworks */,
-				5F896758B2E917A9B97DF6C1036A4F44 /* UIKit.framework in Frameworks */,
+				94C8B6C5352CBFDEF063CDC7B2CA9319 /* Anchorage.framework in Frameworks */,
+				E57AEBFF3D632F46983158E794D51579 /* Foundation.framework in Frameworks */,
+				90066E55AC6B82936F27B675C20E80AA /* QRCode.framework in Frameworks */,
+				85A3FF47DA4B954D5CE4AED1FAB28783 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E81E591BD9ECB0821BA34F7CC2D2EAB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				434A2D614062CD18BE018223D926329D /* Anchorage.framework */,
-				8D0DEAC8541314C367931873A0C55F0B /* QRCode.framework */,
-				AA5AFF4490ADE527BD08E17F1C4EFDB7 /* SAConfettiView.framework */,
-				996E8C92ADD505934C5E9630E999D97B /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		12253271E824650FAE85473D349688A3 /* Pods-CryptoContribute_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,65 +234,12 @@
 			path = "Target Support Files/Pods-CryptoContribute_Example";
 			sourceTree = "<group>";
 		};
-		1A0998DDAE0F993EFBE4EF7C8A4C5F1E /* QRCode */ = {
-			isa = PBXGroup;
-			children = (
-				178A39FC102C376A9BCD84DD56581CAA /* CIColorExtension.swift */,
-				2092432E7D49A608386A47AA6B3688EE /* CIImageExtension.swift */,
-				1F64E2FF157A41CDB3C6720FDE41B782 /* QRCode.swift */,
-				484EC89B38656D4E2FA21381021D09EE /* UIImageViewExtension.swift */,
-				20399C56702ADFF137CB03D235A50FCA /* Support Files */,
-			);
-			name = QRCode;
-			path = QRCode;
-			sourceTree = "<group>";
-		};
-		20399C56702ADFF137CB03D235A50FCA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9D866FFA4F0DCAD2D8ED254D9E7C8A1B /* Info.plist */,
-				F890D11A5149BEC066ACE08B66660610 /* QRCode.modulemap */,
-				ED56B21991AF3CA66161C6CF65F716BC /* QRCode.xcconfig */,
-				3A9111351CDAE2B7A759993A0A22FBA6 /* QRCode-dummy.m */,
-				B090F0E321BD85FC3A4013AF324DC9EF /* QRCode-prefix.pch */,
-				8A8230B78341651A20C13F62E471987F /* QRCode-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/QRCode";
-			sourceTree = "<group>";
-		};
 		2479AF1578DFC28496F5138BE1D67348 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A35BBF6D034927C290F497F24AA881E4 /* CryptoContribute */,
+				896AC04014073593965CB8A2A1D03DFF /* CryptoContribute */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		28CEF9AA42D288930EF43B111EFEA86C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				32A73FBF6F014D1912C271CAC92C6047 /* Info.plist */,
-				AB80577E7C863990F44B26D52567F8AF /* ResourceBundle-SAConfettiView-Info.plist */,
-				1CC76A76EEE9F6FC31C6B09BF3AD66BD /* SAConfettiView.modulemap */,
-				C7D5A365D2D4DB68F51BDB5DA4B50F07 /* SAConfettiView.xcconfig */,
-				B5D0E75452367EACA0EE4323791EE478 /* SAConfettiView-dummy.m */,
-				CAA5E57C178ED2B2BCEE2EC9534BC7F8 /* SAConfettiView-prefix.pch */,
-				1740BC4B4EC86C00AE940F6E317A7204 /* SAConfettiView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SAConfettiView";
-			sourceTree = "<group>";
-		};
-		44CED0BAFDA0D258501F1F08FF0322FD /* SAConfettiView */ = {
-			isa = PBXGroup;
-			children = (
-				0E8349BA744F93AD5CDA9D0E05AEC61F /* SAConfettiView.swift */,
-				D33F36251AB2D67D78D0A977AFA0F593 /* Resources */,
-				28CEF9AA42D288930EF43B111EFEA86C /* Support Files */,
-			);
-			name = SAConfettiView;
-			path = SAConfettiView;
 			sourceTree = "<group>";
 		};
 		467FEDBBFE0933AFB4A37764A583F598 /* Pods-CryptoContribute_Tests */ = {
@@ -391,34 +260,28 @@
 			path = "Target Support Files/Pods-CryptoContribute_Tests";
 			sourceTree = "<group>";
 		};
-		57788F642D63BE9D38B20A3369CE619B /* Products */ = {
+		5006EE6FE6E706C7F8E568CFA4266994 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				32AFDF6AADD0824F1F1F35BB6C801021 /* Anchorage.framework */,
-				3B6F676B13155601448B54563D2C4330 /* CryptoContribute.bundle */,
-				966F8B3A4DDE3230548AB32A8D4CF253 /* CryptoContribute.framework */,
-				9BBC5C9D17FDD3C8B89C9018701BF29E /* Pods_CryptoContribute_Example.framework */,
-				D7F7C472990C284FA14EA7846D4B072C /* Pods_CryptoContribute_Tests.framework */,
-				75B3D7BC17024F35499145D6598234F8 /* QRCode.framework */,
-				D5BB477A44B253092F007957251CA12A /* SAConfettiView.bundle */,
-				5A846A0BC731EE0AE9292C5E59E0BCAD /* SAConfettiView.framework */,
+				F6720BF3061BC4018450048362A3E6D5 /* Anchorage.framework */,
+				3F4C0C65810189D1722EE87C4CA2A6DD /* QRCode.framework */,
+				B97AFC26222DA762C521EF431DD78A9D /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		63547F70E6A9FD6BAD83C851109474B6 /* Support Files */ = {
+		6592F267EE27538604EE69FDF3C15349 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DF76C6A3B6DBDFABE691C345EA2DB261 /* CryptoContribute.modulemap */,
-				0FB214C1FD3E7070214E6FC5E5EC57C5 /* CryptoContribute.xcconfig */,
-				B90F5FA7FF8D8D07E2C84318A504F79A /* CryptoContribute-dummy.m */,
-				A004AAB2B0764689CCF82523D8B65D89 /* CryptoContribute-prefix.pch */,
-				304C7BD954D9EEBCB2DE6940FC2CB853 /* CryptoContribute-umbrella.h */,
-				07EDAA825CF6607733793C46CB53ECAD /* Info.plist */,
-				F133F7AED6FFD88479AD312FF0012410 /* ResourceBundle-CryptoContribute-Info.plist */,
+				1B61C9BD7AD90980B93EFD9F71BD0B99 /* Anchorage.modulemap */,
+				62A65C362B535AC16C601DD7EABAE51B /* Anchorage.xcconfig */,
+				71F4897952C74801D87638631716DCA0 /* Anchorage-dummy.m */,
+				C35B2778CB9EF0808E20CCC94F91A5FE /* Anchorage-prefix.pch */,
+				7A1694EB18D451F951B637D0D36558E9 /* Anchorage-umbrella.h */,
+				60A0A8F92EFC01DD46E2A3D76C22B466 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CryptoContribute";
+			path = "../Target Support Files/Anchorage";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -426,59 +289,92 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				2479AF1578DFC28496F5138BE1D67348 /* Development Pods */,
-				0E81E591BD9ECB0821BA34F7CC2D2EAB /* Frameworks */,
-				93C6EC64E8967AA3AE06F7C8E042945B /* Pods */,
-				57788F642D63BE9D38B20A3369CE619B /* Products */,
+				5006EE6FE6E706C7F8E568CFA4266994 /* Frameworks */,
+				F65421020D57A6D965E4A760587C5062 /* Pods */,
+				AFBC9329128F96146E3081215D8D8DFB /* Products */,
 				F09F95A800054F9ED1239CDD3573834B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		93C6EC64E8967AA3AE06F7C8E042945B /* Pods */ = {
+		896AC04014073593965CB8A2A1D03DFF /* CryptoContribute */ = {
 			isa = PBXGroup;
 			children = (
-				F5CAFB89D4559058539359AE1545F141 /* Anchorage */,
-				1A0998DDAE0F993EFBE4EF7C8A4C5F1E /* QRCode */,
-				44CED0BAFDA0D258501F1F08FF0322FD /* SAConfettiView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		996E8C92ADD505934C5E9630E999D97B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D3CB313128D824F679DF974FE0AA29CC /* Foundation.framework */,
-				61D8668D4BF603B0C6D0AF57ED85E82D /* QuartzCore.framework */,
-				C93AD659138DF42ABC34F70EA821BB7D /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		A35BBF6D034927C290F497F24AA881E4 /* CryptoContribute */ = {
-			isa = PBXGroup;
-			children = (
-				53E88F9B4AE8158604330471C25434AD /* ClosureProxy.swift */,
-				799DE3E5841A64B5E9367502E85C96DA /* ConfettiView.swift */,
-				7EFD5C9A2CFC5F36849EEFBE4272A0DD /* ContributeCoordinator.swift */,
-				DCBB297421C07CC4A7CCB61C771529BD /* DonateView.swift */,
-				9B84F35F53F8608605304142D5B8C1E7 /* DonateViewController.swift */,
-				67B9A3AE47F8F9F7123C94D9BB095760 /* File.swift */,
-				74411455FCC8129658F2361AE9F612C0 /* UIAlertController.swift */,
-				508951DDD706EECF97AD93E81D735B47 /* WhiteButton.swift */,
-				63547F70E6A9FD6BAD83C851109474B6 /* Support Files */,
+				070592CEB5F434A6C94688B55DBF4E05 /* ClosureProxy.swift */,
+				7CD05A82345C8D1958B03B019F6F1649 /* ConfettiView.swift */,
+				1F16CF6B5DB2EE6297784C6ECC046AD8 /* ContributeCoordinator.swift */,
+				7D99D725CCD11BA63598A8BB1058EF83 /* DonateView.swift */,
+				ABFC6B936F8EF102403E712B2DF45209 /* DonateViewController.swift */,
+				69508271AF33E1E8666DBBCE5C3AF6E7 /* QRDisplayViewController.swift */,
+				CA1F9DCEA53F78526D5C0AC3A10A947E /* UIAlertController.swift */,
+				F764287110457EB99296C261797482E7 /* WhiteButton.swift */,
+				F808C727D283C6D9093E2660E89BD89B /* Support Files */,
 			);
 			name = CryptoContribute;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		D33F36251AB2D67D78D0A977AFA0F593 /* Resources */ = {
+		9B3E5AE14325F475D625F257044A12AE /* Anchorage */ = {
 			isa = PBXGroup;
 			children = (
-				3485455B619EC29308494A91A6B35A76 /* confetti.png */,
-				BEDA676ADC2E68706CEA43330EAB8E91 /* diamond.png */,
-				0E4820AF65C8ECE4A837556FD97818B0 /* star.png */,
-				2CD2E1A6D24C1B256BC5304C6AE56724 /* triangle.png */,
+				8595C545826FC509694DBFF7E2A15693 /* Anchorage.swift */,
+				944D0F117CE06DB30A881FE8CD637FB7 /* AnchorGroupProvider.swift */,
+				0BBED75A527A6656B06960757DC10BA7 /* Compatability.swift */,
+				1634D68FA2E8E92189DC56154259EB0E /* Internal.swift */,
+				38EBD7B3F3056AF41B9ABC2BE6E51E5E /* NSLayoutAnchor+MultiplierConstraints.swift */,
+				EC680107D607CB9AD14ACE698E85E457 /* Priority.swift */,
+				6592F267EE27538604EE69FDF3C15349 /* Support Files */,
 			);
-			name = Resources;
+			name = Anchorage;
+			path = Anchorage;
+			sourceTree = "<group>";
+		};
+		9ECD56CCA9F8CF505E403887269469E1 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				F49000940E07450B7D796EE96666A5F8 /* CIColorExtension.swift */,
+				364918E9341688C1FB776FADC34EB912 /* CIImageExtension.swift */,
+				9AE572DCD6A480C2EEA1BF4B4BFBBB5D /* QRCode.swift */,
+				EE2131692639E84C138FC0EED7B79C70 /* UIImageViewExtension.swift */,
+				AD5B2C39F5CDA79F1B06E8935AEE7CA7 /* Support Files */,
+			);
+			name = QRCode;
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		AD5B2C39F5CDA79F1B06E8935AEE7CA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89B836277F932625F2A82FB55D167779 /* Info.plist */,
+				D9F46FF0BCDA6D23808CE237D26F46FB /* QRCode.modulemap */,
+				EE77AE6AE3DB136B47F940FC9488209F /* QRCode.xcconfig */,
+				8723C16C3CB825714A86CDD79D7ABFD6 /* QRCode-dummy.m */,
+				95B28B11FBE0CD1154DF263CC3C3420C /* QRCode-prefix.pch */,
+				6EC9220DD5479A9C1A2E11C5B5159004 /* QRCode-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QRCode";
+			sourceTree = "<group>";
+		};
+		AFBC9329128F96146E3081215D8D8DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68425F8734380FDE0BE2281C782A2728 /* Anchorage.framework */,
+				EA0F458E1FE3B67B011D59C8D34E8510 /* CryptoContribute.bundle */,
+				38CE11D9F6564E6C44A1D03CEBBF71BB /* CryptoContribute.framework */,
+				9EAC857058655742C61F497141DC26C4 /* Pods_CryptoContribute_Example.framework */,
+				A337C9D7E2A216B395A0C201FF7E952A /* Pods_CryptoContribute_Tests.framework */,
+				00A1EB4E0944DA4A50ED924675DB830A /* QRCode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B97AFC26222DA762C521EF431DD78A9D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				641442F35C9E3421F91A64E6961C59C2 /* Foundation.framework */,
+				1F404EC68724A74E43BA85B33B6F7300 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F09F95A800054F9ED1239CDD3573834B /* Targets Support Files */ = {
@@ -490,33 +386,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F0EB9103E7C4E07CBE7446EB866A7AB7 /* Support Files */ = {
+		F65421020D57A6D965E4A760587C5062 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1CA1E01AE16D7F9F72E110258B741358 /* Anchorage.modulemap */,
-				643DB8CCE8268C7823A0ACCA60EC0959 /* Anchorage.xcconfig */,
-				54163540CBDBBA9AFCCE8E6083BF0EFD /* Anchorage-dummy.m */,
-				498B73CBC534DBB7B8512A8F843710DE /* Anchorage-prefix.pch */,
-				B9985C02B71F21BC746FA049DC949122 /* Anchorage-umbrella.h */,
-				2698B87EF9F07816E918AFF33FD2410A /* Info.plist */,
+				9B3E5AE14325F475D625F257044A12AE /* Anchorage */,
+				9ECD56CCA9F8CF505E403887269469E1 /* QRCode */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Anchorage";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		F5CAFB89D4559058539359AE1545F141 /* Anchorage */ = {
+		F808C727D283C6D9093E2660E89BD89B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FADF2E02EC24638C0C746992E121699A /* Anchorage.swift */,
-				99EC8CE89B0F9485BF9D880392C1B158 /* AnchorGroupProvider.swift */,
-				C86B1353264BF4888732F02D6AAE81E1 /* Compatability.swift */,
-				39CC810C4E0B0E70E63DF103E03BC16E /* Internal.swift */,
-				F94DAA5DFA2C23A495C740B31183E85B /* NSLayoutAnchor+MultiplierConstraints.swift */,
-				F99889DFCC633969D1B94033C6855E10 /* Priority.swift */,
-				F0EB9103E7C4E07CBE7446EB866A7AB7 /* Support Files */,
+				FBDBD53B8C4371247839E4A664AAAB23 /* CryptoContribute.modulemap */,
+				9730BE2022E4E57B86A1DAC079D950EF /* CryptoContribute.xcconfig */,
+				71D55B44AAFB85C34264712687704BB0 /* CryptoContribute-dummy.m */,
+				34E90385EA5E53D82C5964B8BB96E55D /* CryptoContribute-prefix.pch */,
+				997199519472FB2BA562E18CA1627449 /* CryptoContribute-umbrella.h */,
+				D500CE777121230F9C3421290ADC391F /* Info.plist */,
+				6A97CB144D8168FA9779CC9E06E7A97F /* ResourceBundle-CryptoContribute-Info.plist */,
 			);
-			name = Anchorage;
-			path = Anchorage;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CryptoContribute";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -530,11 +421,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		451473DD4A8F6524C79F563B2FF799EE /* Headers */ = {
+		258036D4CC236F3019C0BB63143073D4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D324CF7C54A3BEA11613D7DF51BA3E88 /* QRCode-umbrella.h in Headers */,
+				8C553B25C833AAD983212D436FA4AEBB /* QRCode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FE7373A8031B7D4EFB499946FB32E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B464F198EE997C523E2F203D114DDB90 /* CryptoContribute-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,80 +445,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8799470AD60AA15FB881470BF9305FEE /* Headers */ = {
+		592619A0EB20894057862BA4A2E9425F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				953E79C8AF2E7C9BAD6DE7CB8899B69D /* SAConfettiView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E33C34390DCD38CB26365E0F237A65B1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				656F0473416D670003D4FF6D70D23559 /* CryptoContribute-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB7BE21BA79AB51F7459FA60960BCB97 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				47E8A6A5783643085B59D5D76647AD86 /* Pods-CryptoContribute_Example-umbrella.h in Headers */,
+				7EC0221FD602D4B6741144050A9A8BF9 /* Pods-CryptoContribute_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		095ADD8519DB05D6FC93EDD56F7BC9F6 /* SAConfettiView */ = {
+		00A08DDE9D9458B3A5D37C274B53350A /* CryptoContribute-CryptoContribute */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 570C5DB86C388AB8EE776B9AAE9BD5FA /* Build configuration list for PBXNativeTarget "SAConfettiView" */;
+			buildConfigurationList = 7C89CBD91C6236015075915F3DD40D08 /* Build configuration list for PBXNativeTarget "CryptoContribute-CryptoContribute" */;
 			buildPhases = (
-				B6C39A4B7D7CE5F006E79BBBE3539CBC /* Sources */,
-				05C02A8D3E50BE9070117D23495812B9 /* Frameworks */,
-				418931B3672F3A0702810456EEB7CEA2 /* Resources */,
-				8799470AD60AA15FB881470BF9305FEE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A45585F2B4BD76A97B7A82374636B66 /* PBXTargetDependency */,
-			);
-			name = SAConfettiView;
-			productName = SAConfettiView;
-			productReference = 5A846A0BC731EE0AE9292C5E59E0BCAD /* SAConfettiView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		486923442B7FB4B3657680BD8E17B575 /* Pods-CryptoContribute_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 03002DD1591493A8F0A0E523A8A152DB /* Build configuration list for PBXNativeTarget "Pods-CryptoContribute_Example" */;
-			buildPhases = (
-				1E6BF8DF0CBEFA786F4E5754289FB0DA /* Sources */,
-				A8C8986519CBE1102E3EA189F341D1E8 /* Frameworks */,
-				EB7BE21BA79AB51F7459FA60960BCB97 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				97BE89B7F00A041686D9CD5BA935D8DC /* PBXTargetDependency */,
-				1FE3D4F07C6EC5E3551DDBCAC1FEDFEC /* PBXTargetDependency */,
-				CE3E60A5002B7DF21F9F48198CE84535 /* PBXTargetDependency */,
-				57994C9B0AC854236BDBCDE7DD984F6B /* PBXTargetDependency */,
-			);
-			name = "Pods-CryptoContribute_Example";
-			productName = "Pods-CryptoContribute_Example";
-			productReference = 9BBC5C9D17FDD3C8B89C9018701BF29E /* Pods_CryptoContribute_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		52B29239705EC40B576D72515200C3DC /* CryptoContribute-CryptoContribute */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E8C6C05A072DAD80D6C743A73F1768E9 /* Build configuration list for PBXNativeTarget "CryptoContribute-CryptoContribute" */;
-			buildPhases = (
-				C3C77A38811FEC64226833BAC63E0C89 /* Sources */,
-				86F0687B3D3F18E7DA93385CDB5939DA /* Frameworks */,
-				DE159C9DF0F33355C8D5190D89D6A826 /* Resources */,
+				A3821D426941B6266B2AA103F5F15751 /* Sources */,
+				A887522F9ECEFA1B2940A095CC160485 /* Frameworks */,
+				11C742BAD96EE122B9B3A9AF03682DD6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -627,8 +470,29 @@
 			);
 			name = "CryptoContribute-CryptoContribute";
 			productName = "CryptoContribute-CryptoContribute";
-			productReference = 3B6F676B13155601448B54563D2C4330 /* CryptoContribute.bundle */;
+			productReference = EA0F458E1FE3B67B011D59C8D34E8510 /* CryptoContribute.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		038845BEC855AE676EA8FFFEE8B2149F /* CryptoContribute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233B6276D0E0B3DE6DB3CE1070608D9A /* Build configuration list for PBXNativeTarget "CryptoContribute" */;
+			buildPhases = (
+				DDD0598C7F3EF2F76B2D269971CD58C5 /* Sources */,
+				CD2CC93C89771C2B0412EF016B16C1A8 /* Frameworks */,
+				75118627550E798A24C7E494FE27F268 /* Resources */,
+				46FE7373A8031B7D4EFB499946FB32E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EDDDF14AF3D43563319111B7C2288F3 /* PBXTargetDependency */,
+				4D0F011BCC025B31C0A48DD0BECCBE13 /* PBXTargetDependency */,
+				15C3F226334F522B244AF8FEE0413674 /* PBXTargetDependency */,
+			);
+			name = CryptoContribute;
+			productName = CryptoContribute;
+			productReference = 38CE11D9F6564E6C44A1D03CEBBF71BB /* CryptoContribute.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		71E4428C2A714B1F87258ED568ED0AD7 /* Pods-CryptoContribute_Tests */ = {
 			isa = PBXNativeTarget;
@@ -644,63 +508,27 @@
 			);
 			name = "Pods-CryptoContribute_Tests";
 			productName = "Pods-CryptoContribute_Tests";
-			productReference = D7F7C472990C284FA14EA7846D4B072C /* Pods_CryptoContribute_Tests.framework */;
+			productReference = A337C9D7E2A216B395A0C201FF7E952A /* Pods_CryptoContribute_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AD22C82B1C5A896052DBA3C9A21CB871 /* QRCode */ = {
+		C1436F5D513F0CFBCD14CC05B368243B /* Pods-CryptoContribute_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13758325E2FBE15061E270097A964864 /* Build configuration list for PBXNativeTarget "QRCode" */;
+			buildConfigurationList = C3217B97E32F2C6585566065C2DA268D /* Build configuration list for PBXNativeTarget "Pods-CryptoContribute_Example" */;
 			buildPhases = (
-				3AB9222AC7114E669FE8E8ADC79B1487 /* Sources */,
-				3DAAE7B1332BD02BCDC30326C8203ED5 /* Frameworks */,
-				451473DD4A8F6524C79F563B2FF799EE /* Headers */,
+				EE752C5ACA2FD5D9E77C3CB055106C98 /* Sources */,
+				42E3714689306EF30584800C60C2CA48 /* Frameworks */,
+				592619A0EB20894057862BA4A2E9425F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				97A2031A5D315AAF2C3FA862E4EFACA4 /* PBXTargetDependency */,
+				24D0FF982ED4A7E14755A28A1ECC40C4 /* PBXTargetDependency */,
+				86E8A9205E33BF69954B2855DA38FB19 /* PBXTargetDependency */,
 			);
-			name = QRCode;
-			productName = QRCode;
-			productReference = 75B3D7BC17024F35499145D6598234F8 /* QRCode.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C7DAB63EB72596B35AA62DB97B4E1862 /* SAConfettiView-SAConfettiView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 296E88ECFF5959BA1654A2644C8FC8E1 /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */;
-			buildPhases = (
-				537DFF56B0560183C574C0F6068F9120 /* Sources */,
-				E51674214D87C1B59F0B64AA2FCBD074 /* Frameworks */,
-				0EEC2139B980B4E678D79553A1551DDD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SAConfettiView-SAConfettiView";
-			productName = "SAConfettiView-SAConfettiView";
-			productReference = D5BB477A44B253092F007957251CA12A /* SAConfettiView.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		D2D2BDDC33C588919617212EC7FAFCD7 /* CryptoContribute */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 939174DD543919208F9A6FD7B3FA2140 /* Build configuration list for PBXNativeTarget "CryptoContribute" */;
-			buildPhases = (
-				B32CDE83F6079D03F6784E03F29A021C /* Sources */,
-				FA04485FCB718B6F8CD0011BB083F916 /* Frameworks */,
-				DE20559AC5D3416E088074B84EFB67D1 /* Resources */,
-				E33C34390DCD38CB26365E0F237A65B1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				22B39DD577EFDC84CB7650581C5AD2F0 /* PBXTargetDependency */,
-				C9F20A7AF9F77D8B9651F26E8EC72648 /* PBXTargetDependency */,
-				FCA11C019E76020B98DE204980E83FD1 /* PBXTargetDependency */,
-				EAF901E91966FA075ADC248EB84BB0AD /* PBXTargetDependency */,
-			);
-			name = CryptoContribute;
-			productName = CryptoContribute;
-			productReference = 966F8B3A4DDE3230548AB32A8D4CF253 /* CryptoContribute.framework */;
+			name = "Pods-CryptoContribute_Example";
+			productName = "Pods-CryptoContribute_Example";
+			productReference = 9EAC857058655742C61F497141DC26C4 /* Pods_CryptoContribute_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EDFADDD27E9AE133283F4BFCC355134F /* Anchorage */ = {
@@ -717,7 +545,24 @@
 			);
 			name = Anchorage;
 			productName = Anchorage;
-			productReference = 32AFDF6AADD0824F1F1F35BB6C801021 /* Anchorage.framework */;
+			productReference = 68425F8734380FDE0BE2281C782A2728 /* Anchorage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9BB9799075E216AA57338646BAB1245 /* QRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342B6F01A58FDEF2B291502F2CE58C7D /* Build configuration list for PBXNativeTarget "QRCode" */;
+			buildPhases = (
+				EABDBCACBBEC82571CD65ED9E8B6B574 /* Sources */,
+				AF7468FA0CD1E4528673BB8DD1F52FC8 /* Frameworks */,
+				258036D4CC236F3019C0BB63143073D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCode;
+			productName = QRCode;
+			productReference = 00A1EB4E0944DA4A50ED924675DB830A /* QRCode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -737,87 +582,39 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 57788F642D63BE9D38B20A3369CE619B /* Products */;
+			productRefGroup = AFBC9329128F96146E3081215D8D8DFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EDFADDD27E9AE133283F4BFCC355134F /* Anchorage */,
-				D2D2BDDC33C588919617212EC7FAFCD7 /* CryptoContribute */,
-				52B29239705EC40B576D72515200C3DC /* CryptoContribute-CryptoContribute */,
-				486923442B7FB4B3657680BD8E17B575 /* Pods-CryptoContribute_Example */,
+				038845BEC855AE676EA8FFFEE8B2149F /* CryptoContribute */,
+				00A08DDE9D9458B3A5D37C274B53350A /* CryptoContribute-CryptoContribute */,
+				C1436F5D513F0CFBCD14CC05B368243B /* Pods-CryptoContribute_Example */,
 				71E4428C2A714B1F87258ED568ED0AD7 /* Pods-CryptoContribute_Tests */,
-				AD22C82B1C5A896052DBA3C9A21CB871 /* QRCode */,
-				095ADD8519DB05D6FC93EDD56F7BC9F6 /* SAConfettiView */,
-				C7DAB63EB72596B35AA62DB97B4E1862 /* SAConfettiView-SAConfettiView */,
+				F9BB9799075E216AA57338646BAB1245 /* QRCode */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0EEC2139B980B4E678D79553A1551DDD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B0C72B5ECC498C14EC52829848DC348 /* confetti.png in Resources */,
-				B88DBB875F7D9CA9D672B1C2F9244B71 /* diamond.png in Resources */,
-				02F915340D80A714EA136787667AF197 /* star.png in Resources */,
-				C97D1FCF7609F1DB13945C31D0AF7B38 /* triangle.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		418931B3672F3A0702810456EEB7CEA2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE25B9E73DD833C22C3BD792E67A0364 /* SAConfettiView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE159C9DF0F33355C8D5190D89D6A826 /* Resources */ = {
+		11C742BAD96EE122B9B3A9AF03682DD6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE20559AC5D3416E088074B84EFB67D1 /* Resources */ = {
+		75118627550E798A24C7E494FE27F268 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B20235C5C3DB5D7D351F8A9384D9CAE /* CryptoContribute.bundle in Resources */,
+				378D7CB5A86B646795F6B7712B01920E /* CryptoContribute.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E6BF8DF0CBEFA786F4E5754289FB0DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C84D1D3D37BD9E677DD0D75A3B465839 /* Pods-CryptoContribute_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3AB9222AC7114E669FE8E8ADC79B1487 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E13D86A08F56E2AF43DCCEC5280DCA85 /* CIColorExtension.swift in Sources */,
-				691D775FF24BE2283ED7C17572194D0F /* CIImageExtension.swift in Sources */,
-				6FAC8EC2E2956999FCC33DBDADE43120 /* QRCode-dummy.m in Sources */,
-				F0C7B8905B774C95DB3633252B81613E /* QRCode.swift in Sources */,
-				C76E6972D7066CD12F2A11E1F5AECDA1 /* UIImageViewExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		537DFF56B0560183C574C0F6068F9120 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6BA801A9D0E51F7388F26373D5ACF6FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -832,19 +629,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B32CDE83F6079D03F6784E03F29A021C /* Sources */ = {
+		A3821D426941B6266B2AA103F5F15751 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A9C7E8B561AC9138D38389969222499 /* ClosureProxy.swift in Sources */,
-				9B308B0CC76AAA7E6B07C777598EB3CB /* ConfettiView.swift in Sources */,
-				6DCA71D6567141BDF1E9B42F8524BA34 /* ContributeCoordinator.swift in Sources */,
-				E886AE8A900DC423AF7B88511CA89A19 /* CryptoContribute-dummy.m in Sources */,
-				116A78960F8E420D29C025EB6807E9E6 /* DonateView.swift in Sources */,
-				47C2065A3F0F8AA8A403E2B0E4B430FB /* DonateViewController.swift in Sources */,
-				F37C01210813B3C607D8BB6BD60C8B4F /* File.swift in Sources */,
-				0E86726A57C3474C3114CC912C024F3F /* UIAlertController.swift in Sources */,
-				E2986A28D8688F9562D5401D5046D2EF /* WhiteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,85 +644,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6C39A4B7D7CE5F006E79BBBE3539CBC /* Sources */ = {
+		DDD0598C7F3EF2F76B2D269971CD58C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B62A5819D357CFDCB1879C4EA9D3EAE /* SAConfettiView-dummy.m in Sources */,
-				FFF82E9D127F16A20D54072299BF15D9 /* SAConfettiView.swift in Sources */,
+				73DD7705A3AAF33BA1CC751453B9546A /* ClosureProxy.swift in Sources */,
+				09437FF16A36CE3295B2A43A29CBC8E7 /* ConfettiView.swift in Sources */,
+				37BACD770334B208489538AFBC122F25 /* ContributeCoordinator.swift in Sources */,
+				0E08579388D44F4AB36270FE0F48E1B2 /* CryptoContribute-dummy.m in Sources */,
+				94EE5FD71D16B591FAAF0C48E506E8C5 /* DonateView.swift in Sources */,
+				63E5DB0562E451216E104CB95CF10108 /* DonateViewController.swift in Sources */,
+				9CC5685D09C0F839612A1D168043AEBC /* QRDisplayViewController.swift in Sources */,
+				FDCAF97FB9ADB6FBC9D5D22F26350353 /* UIAlertController.swift in Sources */,
+				209FE9D4532131E6AAB83437E119C9F8 /* WhiteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3C77A38811FEC64226833BAC63E0C89 /* Sources */ = {
+		EABDBCACBBEC82571CD65ED9E8B6B574 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E0066E946FF6C972D9F8D8C5A6C81FD /* CIColorExtension.swift in Sources */,
+				891ECE71677B9438269903AB82BBA965 /* CIImageExtension.swift in Sources */,
+				573800EA1A9B4FB521937760B3834DB2 /* QRCode-dummy.m in Sources */,
+				A4F8A80A88F77E90D599181C99AFFB83 /* QRCode.swift in Sources */,
+				BE5962A8B46E1F9202A25E5B89102300 /* UIImageViewExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE752C5ACA2FD5D9E77C3CB055106C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B614DD4DD6DEF4B5438ED8410D842C /* Pods-CryptoContribute_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1FE3D4F07C6EC5E3551DDBCAC1FEDFEC /* PBXTargetDependency */ = {
+		15C3F226334F522B244AF8FEE0413674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCode;
+			target = F9BB9799075E216AA57338646BAB1245 /* QRCode */;
+			targetProxy = 7EDAF59E0A79D4EC492AA5C8DA6B11DA /* PBXContainerItemProxy */;
+		};
+		24D0FF982ED4A7E14755A28A1ECC40C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CryptoContribute;
-			target = D2D2BDDC33C588919617212EC7FAFCD7 /* CryptoContribute */;
-			targetProxy = B5C1049B3D09C66AD7FC97F94A49573A /* PBXContainerItemProxy */;
+			target = 038845BEC855AE676EA8FFFEE8B2149F /* CryptoContribute */;
+			targetProxy = 51091F78C9F7A22B770D9E4ED946B262 /* PBXContainerItemProxy */;
 		};
-		22B39DD577EFDC84CB7650581C5AD2F0 /* PBXTargetDependency */ = {
+		2EDDDF14AF3D43563319111B7C2288F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Anchorage;
 			target = EDFADDD27E9AE133283F4BFCC355134F /* Anchorage */;
-			targetProxy = 93E0AC3171B6ACDAFE56D4DEEEDB588A /* PBXContainerItemProxy */;
+			targetProxy = DA1A919CF7E4EE8A06415E99231E8A1E /* PBXContainerItemProxy */;
 		};
-		57994C9B0AC854236BDBCDE7DD984F6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAConfettiView;
-			target = 095ADD8519DB05D6FC93EDD56F7BC9F6 /* SAConfettiView */;
-			targetProxy = EDCC4A939864DA035706F527319355B3 /* PBXContainerItemProxy */;
-		};
-		5A45585F2B4BD76A97B7A82374636B66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SAConfettiView-SAConfettiView";
-			target = C7DAB63EB72596B35AA62DB97B4E1862 /* SAConfettiView-SAConfettiView */;
-			targetProxy = CA6BFD9822430DE4C68E7873AEE655F0 /* PBXContainerItemProxy */;
-		};
-		97BE89B7F00A041686D9CD5BA935D8DC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Anchorage;
-			target = EDFADDD27E9AE133283F4BFCC355134F /* Anchorage */;
-			targetProxy = 23AB60F640B66A182AD3B751E49E67EC /* PBXContainerItemProxy */;
-		};
-		C9F20A7AF9F77D8B9651F26E8EC72648 /* PBXTargetDependency */ = {
+		4D0F011BCC025B31C0A48DD0BECCBE13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CryptoContribute-CryptoContribute";
-			target = 52B29239705EC40B576D72515200C3DC /* CryptoContribute-CryptoContribute */;
-			targetProxy = 98B6A948BA49DF6CE229722BFBAFACDE /* PBXContainerItemProxy */;
+			target = 00A08DDE9D9458B3A5D37C274B53350A /* CryptoContribute-CryptoContribute */;
+			targetProxy = 1CF4375267E5676DC1730E132B1F7704 /* PBXContainerItemProxy */;
 		};
-		CE3E60A5002B7DF21F9F48198CE84535 /* PBXTargetDependency */ = {
+		86E8A9205E33BF69954B2855DA38FB19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QRCode;
-			target = AD22C82B1C5A896052DBA3C9A21CB871 /* QRCode */;
-			targetProxy = D3BD15B0F299BA0DD9D3EAD4C8FB0D65 /* PBXContainerItemProxy */;
+			target = F9BB9799075E216AA57338646BAB1245 /* QRCode */;
+			targetProxy = 1F0C97DB1BE640D31FA3E8F76CD5EACF /* PBXContainerItemProxy */;
 		};
-		EAF901E91966FA075ADC248EB84BB0AD /* PBXTargetDependency */ = {
+		97A2031A5D315AAF2C3FA862E4EFACA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SAConfettiView;
-			target = 095ADD8519DB05D6FC93EDD56F7BC9F6 /* SAConfettiView */;
-			targetProxy = CE9BF003CFAF643D4AAE830253666B0A /* PBXContainerItemProxy */;
-		};
-		FCA11C019E76020B98DE204980E83FD1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QRCode;
-			target = AD22C82B1C5A896052DBA3C9A21CB871 /* QRCode */;
-			targetProxy = 850B5F2A3C11491C63A9719AE3981B39 /* PBXContainerItemProxy */;
+			name = Anchorage;
+			target = EDFADDD27E9AE133283F4BFCC355134F /* Anchorage */;
+			targetProxy = 1824EE13631053DEE5613246D5B8BC55 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		05026236123C1B3AA133E345FDCEB53A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 643DB8CCE8268C7823A0ACCA60EC0959 /* Anchorage.xcconfig */;
+			baseConfigurationReference = 62A65C362B535AC16C601DD7EABAE51B /* Anchorage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -963,22 +753,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		05C498C1D6FB401A8284B3B5F6773710 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FB214C1FD3E7070214E6FC5E5EC57C5 /* CryptoContribute.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CryptoContribute";
-				INFOPLIST_FILE = "Target Support Files/CryptoContribute/ResourceBundle-CryptoContribute-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = CryptoContribute;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1038,54 +812,7 @@
 			};
 			name = Release;
 		};
-		4E62E09D2FAE7E5A0CF295FD5BD187D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7D5A365D2D4DB68F51BDB5DA4B50F07 /* SAConfettiView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SAConfettiView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SAConfettiView/SAConfettiView.modulemap";
-				PRODUCT_NAME = SAConfettiView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5C70B043CF205BCF04E3C02B6697F74B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7D5A365D2D4DB68F51BDB5DA4B50F07 /* SAConfettiView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
-				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = SAConfettiView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		7689DE71FF8A28D3C5B678E14D96B382 /* Release */ = {
+		587219035A4E77A6A1BE278754BA6B3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E2C2E7514C88EF4E8689E2AA544E127 /* Pods-CryptoContribute_Example.release.xcconfig */;
 			buildSettings = {
@@ -1112,6 +839,38 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73878580E55812367E4EA19C1578549E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE77AE6AE3DB136B47F940FC9488209F /* QRCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCode/QRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QRCode/QRCode.modulemap";
+				PRODUCT_NAME = QRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1152,57 +911,9 @@
 			};
 			name = Release;
 		};
-		AB06F3CFFE28EBCA01890EF29E4C1FC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED56B21991AF3CA66161C6CF65F716BC /* QRCode.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QRCode/QRCode-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QRCode/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QRCode/QRCode.modulemap";
-				PRODUCT_NAME = QRCode;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AD5BC26148777A1B8ACCA13821A813EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7D5A365D2D4DB68F51BDB5DA4B50F07 /* SAConfettiView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
-				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = SAConfettiView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		B3D7583577B0A36CC36E67FF90A3ECAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 643DB8CCE8268C7823A0ACCA60EC0959 /* Anchorage.xcconfig */;
+			baseConfigurationReference = 62A65C362B535AC16C601DD7EABAE51B /* Anchorage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1225,40 +936,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B5B644273E341BA5B9F9828484972AA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29DCA2A1D6886D32AED529AEBE052ED0 /* Pods-CryptoContribute_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CryptoContribute_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CryptoContribute_Example/Pods-CryptoContribute_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CryptoContribute_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1297,25 +974,9 @@
 			};
 			name = Debug;
 		};
-		CFC8A44F9EDB8F0B1F116663AC97455D /* Release */ = {
+		C94A84CCAE3432F10B8ED1B7D94449E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FB214C1FD3E7070214E6FC5E5EC57C5 /* CryptoContribute.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CryptoContribute";
-				INFOPLIST_FILE = "Target Support Files/CryptoContribute/ResourceBundle-CryptoContribute-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = CryptoContribute;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		D1667FCEE3DF8BCC2319A7F4E438784D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7D5A365D2D4DB68F51BDB5DA4B50F07 /* SAConfettiView.xcconfig */;
+			baseConfigurationReference = 9730BE2022E4E57B86A1DAC079D950EF /* CryptoContribute.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1326,13 +987,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SAConfettiView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoContribute/CryptoContribute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoContribute/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SAConfettiView/SAConfettiView.modulemap";
-				PRODUCT_NAME = SAConfettiView;
+				MODULEMAP_FILE = "Target Support Files/CryptoContribute/CryptoContribute.modulemap";
+				PRODUCT_NAME = CryptoContribute;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1344,6 +1005,53 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D2380B258901D862899AE3DB44A422B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9730BE2022E4E57B86A1DAC079D950EF /* CryptoContribute.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoContribute/CryptoContribute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoContribute/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CryptoContribute/CryptoContribute.modulemap";
+				PRODUCT_NAME = CryptoContribute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF76FC4E46C2C137E469B2AF87F72806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9730BE2022E4E57B86A1DAC079D950EF /* CryptoContribute.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CryptoContribute";
+				INFOPLIST_FILE = "Target Support Files/CryptoContribute/ResourceBundle-CryptoContribute-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CryptoContribute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1408,41 +1116,25 @@
 			};
 			name = Debug;
 		};
-		F0156BBB425227BAE90FB59E916F88DF /* Release */ = {
+		F0B9C36E6428BED306D181055FBAE8EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FB214C1FD3E7070214E6FC5E5EC57C5 /* CryptoContribute.xcconfig */;
+			baseConfigurationReference = 9730BE2022E4E57B86A1DAC079D950EF /* CryptoContribute.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CryptoContribute/CryptoContribute-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CryptoContribute/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CryptoContribute";
+				INFOPLIST_FILE = "Target Support Files/CryptoContribute/ResourceBundle-CryptoContribute-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CryptoContribute/CryptoContribute.modulemap";
 				PRODUCT_NAME = CryptoContribute;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		F120248847A1840EEEA79356B2719A4A /* Debug */ = {
+		F17BC62E374EC9FF5462D4D516DE6484 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FB214C1FD3E7070214E6FC5E5EC57C5 /* CryptoContribute.xcconfig */;
+			baseConfigurationReference = 29DCA2A1D6886D32AED529AEBE052ED0 /* Pods-CryptoContribute_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1453,27 +1145,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CryptoContribute/CryptoContribute-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CryptoContribute/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoContribute_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CryptoContribute/CryptoContribute.modulemap";
-				PRODUCT_NAME = CryptoContribute;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoContribute_Example/Pods-CryptoContribute_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CryptoContribute_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		FA672A318DDC83C276C39414205E1AD2 /* Debug */ = {
+		F497EBD9A5DC8C780101358CE659627C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED56B21991AF3CA66161C6CF65F716BC /* QRCode.xcconfig */;
+			baseConfigurationReference = EE77AE6AE3DB136B47F940FC9488209F /* QRCode.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1505,29 +1200,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03002DD1591493A8F0A0E523A8A152DB /* Build configuration list for PBXNativeTarget "Pods-CryptoContribute_Example" */ = {
+		233B6276D0E0B3DE6DB3CE1070608D9A /* Build configuration list for PBXNativeTarget "CryptoContribute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5B644273E341BA5B9F9828484972AA0 /* Debug */,
-				7689DE71FF8A28D3C5B678E14D96B382 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		13758325E2FBE15061E270097A964864 /* Build configuration list for PBXNativeTarget "QRCode" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA672A318DDC83C276C39414205E1AD2 /* Debug */,
-				AB06F3CFFE28EBCA01890EF29E4C1FC2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		296E88ECFF5959BA1654A2644C8FC8E1 /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5C70B043CF205BCF04E3C02B6697F74B /* Debug */,
-				AD5BC26148777A1B8ACCA13821A813EA /* Release */,
+				D2380B258901D862899AE3DB44A422B9 /* Debug */,
+				C94A84CCAE3432F10B8ED1B7D94449E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1541,20 +1218,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		570C5DB86C388AB8EE776B9AAE9BD5FA /* Build configuration list for PBXNativeTarget "SAConfettiView" */ = {
+		342B6F01A58FDEF2B291502F2CE58C7D /* Build configuration list for PBXNativeTarget "QRCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E62E09D2FAE7E5A0CF295FD5BD187D2 /* Debug */,
-				D1667FCEE3DF8BCC2319A7F4E438784D /* Release */,
+				F497EBD9A5DC8C780101358CE659627C /* Debug */,
+				73878580E55812367E4EA19C1578549E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		939174DD543919208F9A6FD7B3FA2140 /* Build configuration list for PBXNativeTarget "CryptoContribute" */ = {
+		7C89CBD91C6236015075915F3DD40D08 /* Build configuration list for PBXNativeTarget "CryptoContribute-CryptoContribute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F120248847A1840EEEA79356B2719A4A /* Debug */,
-				F0156BBB425227BAE90FB59E916F88DF /* Release */,
+				DF76FC4E46C2C137E469B2AF87F72806 /* Debug */,
+				F0B9C36E6428BED306D181055FBAE8EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1577,11 +1254,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8C6C05A072DAD80D6C743A73F1768E9 /* Build configuration list for PBXNativeTarget "CryptoContribute-CryptoContribute" */ = {
+		C3217B97E32F2C6585566065C2DA268D /* Build configuration list for PBXNativeTarget "Pods-CryptoContribute_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05C498C1D6FB401A8284B3B5F6773710 /* Debug */,
-				CFC8A44F9EDB8F0B1F116663AC97455D /* Release */,
+				F17BC62E374EC9FF5462D4D516DE6484 /* Debug */,
+				587219035A4E77A6A1BE278754BA6B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

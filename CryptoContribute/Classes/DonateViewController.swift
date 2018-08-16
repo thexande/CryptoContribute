@@ -23,7 +23,7 @@ enum DonationCurrency {
 }
 
 public final class DonateViewController: UIViewController {
-    let confettiView = ConfettiView()
+    let confettiView = UIView()
     let party = UILabel()
     let header = UILabel()
     let woot = UILabel()
@@ -53,7 +53,7 @@ public final class DonateViewController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         modalPresentationStyle = .overCurrentContext
-        confettiView.startConfetti()
+//        confettiView.startConfetti()
         view.backgroundColor = .black
         view.clipsToBounds = true
         view.addSubview(confettiView)
@@ -93,7 +93,7 @@ public final class DonateViewController: UIViewController {
         woot.textAlignment = .center
         woot.text = "Moon!"
 
-        confettiView.startConfetti()
+//        confettiView.startConfetti()
 
         view.addSubview(dismiss)
         dismiss.horizontalAnchors == view.horizontalAnchors + 18
