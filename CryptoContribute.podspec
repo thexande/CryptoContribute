@@ -33,11 +33,12 @@ TODO: Add long description of the pod here.
   s.source_files = 'CryptoContribute/Classes/**/*'
   
    s.resource_bundles = {
-     'CryptoContribute' => ['CryptoContribute/Assets/Assets.xcassets']
+     'CryptoContribute' => ['CryptoContribute/Resources/Assets.xcassets']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
    s.dependency 'Anchorage'
    s.dependency 'QRCode'
+   s.dependency 'SAConfettiView'
 end

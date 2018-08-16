@@ -3,13 +3,18 @@ protocol DonateActionDispatching: AnyObject {
     func dispatch(_ action: DonateViewController.Actions)
 }
 
-final class DonateCoordinator {
+public final class DonateCoordinator {
     private let qrDisplayViewController = QRDispalyViewController()
     private let donationController = DonateViewController()
 
     public func makeDonateViewController() -> DonateViewController {
         let vc = DonateViewController()
         vc.dispatcher = self
+        return vc
+    }
+
+    public init() {
+        
     }
 }
 
@@ -27,7 +32,7 @@ extension DonateCoordinator {
         donationController.present(alert, animated: true, completion: nil)
     }
 
-    private func handleDonation(_ donation: WalletAction.Donation) {
+    private func handleDonation(_ donation: DonateViewController.Actions.Donation) {
         switch donation {
         case let .copyAddress(currency):
             UIPasteboard.general.string = currency.address
@@ -46,7 +51,7 @@ extension DonateCoordinator {
     private func makeDonateActionSheet(for currency: DonationCurrency) -> UIAlertController {
         let alert = UIAlertController(title: "Thanks for wanting to help!",
                                       message: "You can either copy my \(currency.title) wallet address, or scan my wallet's QR Code.",
-            preferredStyle: .actionSheet)
+                                      preferredStyle: .actionSheet)
 
         let copyAction = UIAlertAction(title: "Copy my \(currency.title) address", style: .default) { [weak self] _ in
             self?.dispatch(.donate(.copyAddress(currency)))

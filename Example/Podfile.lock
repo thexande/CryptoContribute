@@ -3,7 +3,9 @@ PODS:
   - CryptoContribute (0.1.0):
     - Anchorage
     - QRCode
+    - SAConfettiView
   - QRCode (2.0)
+  - SAConfettiView (0.1.8)
 
 DEPENDENCIES:
   - CryptoContribute (from `../`)
@@ -14,8 +16,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Anchorage: f855157310859280c706cc0b9c9281c21702f515
-  CryptoContribute: 0bfd8cca1fe746320bb6f593ef4b1e5489fbb412
+  CryptoContribute: 196e55d27de5c03af35c357320c0b005aa0b6d10
   QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
+  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
 
 PODFILE CHECKSUM: 9fbc8a19fe2a57cc2e8d51a882d466676de8f060
 

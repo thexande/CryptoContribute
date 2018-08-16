@@ -75,7 +75,7 @@
 
         switch type {
         case .confetti:
-            return #imageLiteral(resourceName: "confetti")
+            return UIImage(named: "confetti")
         case .triangle:
             return #imageLiteral(resourceName: "triangle")
         case .star:

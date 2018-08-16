@@ -22,7 +22,7 @@ enum DonationCurrency {
     }
 }
 
-final class DonateViewController: UIViewController {
+public final class DonateViewController: UIViewController {
     let confettiView = ConfettiView()
     let party = UILabel()
     let header = UILabel()
@@ -30,7 +30,7 @@ final class DonateViewController: UIViewController {
     let donate = DonateView()
     let dismiss = WhiteButton()
 
-    override var preferredStatusBarStyle: UIStatusBarStyle {
+    override public var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
 
@@ -50,7 +50,7 @@ final class DonateViewController: UIViewController {
         case presentDonationOptions(DonationCurrency)
     }
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         modalPresentationStyle = .overCurrentContext
         confettiView.startConfetti()
@@ -109,14 +109,14 @@ final class DonateViewController: UIViewController {
         dismiss.addTarget(self, action: #selector(didTapDismiss), for: .touchUpInside)
     }
 
-    override func viewDidAppear(_ animated: Bool) {
+    override public func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         UIView.animate(withDuration: 1, delay: 0.5, options: [.autoreverse, .repeat], animations: {
             self.party.transform = .identity
         })
     }
 
-    override func viewWillAppear(_ animated: Bool) {
+    override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         party.transform = CGAffineTransform(scaleX: 0.7, y: 0.7)
     }

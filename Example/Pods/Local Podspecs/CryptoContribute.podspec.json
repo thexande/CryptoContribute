@@ -21,7 +21,7 @@
   "source_files": "CryptoContribute/Classes/**/*",
   "resource_bundles": {
     "CryptoContribute": [
-      "CryptoContribute/Assets/Assets.xcassets"
+      "CryptoContribute/Resources/Assets.xcassets"
     ]
   },
   "frameworks": "UIKit",
@@ -30,6 +30,9 @@
 
     ],
     "QRCode": [
+
+    ],
+    "SAConfettiView": [
 
     ]
   }
