@@ -13,6 +13,7 @@
 		25E45C6115AF8DBB60CCAA73C18A17AF /* Pods-CryptoContribute_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14600B3AE9FC2A5FEEEE4A253AE0C2A2 /* Pods-CryptoContribute_Tests-dummy.m */; };
 		2A2A62C321251E1800CA3278 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A62C221251E1800CA3278 /* ConfettiView.swift */; };
 		2A2A62C521251EA800CA3278 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A62C421251EA800CA3278 /* DonateView.swift */; };
+		2A2A62C721251FE600CA3278 /* ClosureProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A62C621251FE600CA3278 /* ClosureProxy.swift */; };
 		35E5FD6C7914B7BD6376B673CFE1D466 /* CryptoContribute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8177434D9755D5B8D6071CC51644CFBA /* CryptoContribute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36B75922D81D9E68B269B7F50C227C0B /* Anchorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54BAD520ABD320286B6A007A78D273C6 /* Anchorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38E901AFF90729F16BC3C93C0978692D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3341C5413E46391C3EBB1C6241B07F /* Foundation.framework */; };
@@ -70,6 +71,7 @@
 		29DCA2A1D6886D32AED529AEBE052ED0 /* Pods-CryptoContribute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoContribute_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2A2A62C221251E1800CA3278 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConfettiView.swift; path = CryptoContribute/Classes/ConfettiView.swift; sourceTree = "<group>"; };
 		2A2A62C421251EA800CA3278 /* DonateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DonateView.swift; path = CryptoContribute/Classes/DonateView.swift; sourceTree = "<group>"; };
+		2A2A62C621251FE600CA3278 /* ClosureProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClosureProxy.swift; path = CryptoContribute/Classes/ClosureProxy.swift; sourceTree = "<group>"; };
 		334EEB22B2BE287F5A84E469A4EFF2A1 /* Pods-CryptoContribute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoContribute_Example-dummy.m"; sourceTree = "<group>"; };
 		3E89F6F5D803AC0392641FA654C90131 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F38108E06BC354D773737C6E6A9C1B4 /* Anchorage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Anchorage.xcconfig; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				FAA0448778C13B0326C4A05BF00DB798 /* DonateViewController.swift */,
 				2A2A62C221251E1800CA3278 /* ConfettiView.swift */,
 				2A2A62C421251EA800CA3278 /* DonateView.swift */,
+				2A2A62C621251FE600CA3278 /* ClosureProxy.swift */,
 			);
 			name = CryptoContribute;
 			path = ../..;
@@ -462,6 +465,7 @@
 				6929A18231635B7AC9E1C64F2C6A9729 /* Anchorage.swift in Sources */,
 				2A2A62C521251EA800CA3278 /* DonateView.swift in Sources */,
 				101784DB4E9011A49B3ECBD44999A3AB /* AnchorGroupProvider.swift in Sources */,
+				2A2A62C721251FE600CA3278 /* ClosureProxy.swift in Sources */,
 				6D1B90FADCEC885E68A1AF6B4C241740 /* Compatability.swift in Sources */,
 				E0A8B2C60396294C63C89C4DE1C7C3C2 /* Internal.swift in Sources */,
 				2A2A62C321251E1800CA3278 /* ConfettiView.swift in Sources */,
