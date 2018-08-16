@@ -7,61 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		068E1D81BF6F2EB48E06E1E5988FE8D5 /* Anchorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 940E7225427753689A7B5E82075930D8 /* Anchorage-dummy.m */; };
+		101784DB4E9011A49B3ECBD44999A3AB /* AnchorGroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4937390B6B9CD909F5C75F5F80CE8424 /* AnchorGroupProvider.swift */; };
+		2510A66801F2937A4FA56225D6A50FDB /* NSLayoutAnchor+MultiplierConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B909B9827A633D87A370A01DFAB90 /* NSLayoutAnchor+MultiplierConstraints.swift */; };
 		25E45C6115AF8DBB60CCAA73C18A17AF /* Pods-CryptoContribute_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14600B3AE9FC2A5FEEEE4A253AE0C2A2 /* Pods-CryptoContribute_Tests-dummy.m */; };
-		27FDE66F618154F3A44B9439E1FA320A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7F5C604B8439030DED99D6ACA003E /* ReplaceMe.swift */; };
-		64E9F016F90D3A05CC73AE8CEB9F98F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		752437AA90A8768F6493F9699629DE71 /* Pods-CryptoContribute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 334EEB22B2BE287F5A84E469A4EFF2A1 /* Pods-CryptoContribute_Example-dummy.m */; };
-		AEE8A517DCD291ABBBA7381C2DD5FDF7 /* CryptoContribute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CD762F00B448B2AF5A3B7B6BF7A4B0 /* CryptoContribute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0BA2190DFF75469BD05D53B2AE4E8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		CB0D47B728E46B0AA727AE6F7902AB9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		CC66132D5EE76E385AD7031E27AE1AEA /* CryptoContribute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3ACDCF0CE0A34F9F0F3E9C0E456D35 /* CryptoContribute-dummy.m */; };
-		D31F1AE4358F67D74D5D195C7A7D5A0A /* Pods-CryptoContribute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C74D8D5AA52D03E954E4F8B9D93550EB /* Pods-CryptoContribute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A2A62C321251E1800CA3278 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A62C221251E1800CA3278 /* ConfettiView.swift */; };
+		2A2A62C521251EA800CA3278 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A62C421251EA800CA3278 /* DonateView.swift */; };
+		35E5FD6C7914B7BD6376B673CFE1D466 /* CryptoContribute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8177434D9755D5B8D6071CC51644CFBA /* CryptoContribute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36B75922D81D9E68B269B7F50C227C0B /* Anchorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54BAD520ABD320286B6A007A78D273C6 /* Anchorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38E901AFF90729F16BC3C93C0978692D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3341C5413E46391C3EBB1C6241B07F /* Foundation.framework */; };
+		58504CD591EE1F726655925AF57F5832 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209086D3B2B32FACB46E64F6625BE8F5 /* MapKit.framework */; };
+		6929A18231635B7AC9E1C64F2C6A9729 /* Anchorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85ED28BFCF912804DAF74C9A2345E00 /* Anchorage.swift */; };
+		6D1B90FADCEC885E68A1AF6B4C241740 /* Compatability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090E47A50AE51CA6509EB1BF4D36524 /* Compatability.swift */; };
+		72D29C28B07DBF10EDF381ABC3661CBA /* CryptoContribute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4CB765936F8060E57F6784BB8441E9 /* CryptoContribute-dummy.m */; };
+		775ADBEE76EF58D505A6EE4A4F19BC3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3341C5413E46391C3EBB1C6241B07F /* Foundation.framework */; };
+		9BA1B9ED977821453A2FC63D05B33C1C /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0448778C13B0326C4A05BF00DB798 /* DonateViewController.swift */; };
+		AF440B73367770EAB117472F6C328A23 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434CFF37B7F86E417A6AEF26FB113284 /* Priority.swift */; };
+		B94DE28AC4F2B3FD5CCCF3C32B95A542 /* Anchorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF2EB3D9740A87160676642A2F4DF87 /* Anchorage.framework */; };
+		C0BA2190DFF75469BD05D53B2AE4E8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3341C5413E46391C3EBB1C6241B07F /* Foundation.framework */; };
+		DB993E1EC46FDBEC00C1DA2CA6D84AE6 /* Pods-CryptoContribute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 334EEB22B2BE287F5A84E469A4EFF2A1 /* Pods-CryptoContribute_Example-dummy.m */; };
+		E0A8B2C60396294C63C89C4DE1C7C3C2 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA578C551CFEC3F4275B79C1A35BBCB /* Internal.swift */; };
+		E41E99E23C8DF344F384A4AC3D91D2FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3341C5413E46391C3EBB1C6241B07F /* Foundation.framework */; };
+		E7D9D94BA87A84F5CEF1EBF6E6E976B2 /* Pods-CryptoContribute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C74D8D5AA52D03E954E4F8B9D93550EB /* Pods-CryptoContribute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9598D9A598A702321F68E1777FF07A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0779A2C679A244C2964193064CB680B3 /* UIKit.framework */; };
 		F7815DDACC48B93BD126B20D5127BE23 /* Pods-CryptoContribute_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D37DC32FA1D14F08A7F6BD7EF96BCF38 /* Pods-CryptoContribute_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		085DA1D958E2F7676E3226666FC1BB12 /* PBXContainerItemProxy */ = {
+		931E305BE614697D4A9369C6F25310F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F476624FB318BA4E28FFF733FE194F49;
+			remoteGlobalIDString = D4965DE720B955BA060D369EF794D4F9;
 			remoteInfo = CryptoContribute;
+		};
+		A6073BEA73FA8898D7E9849D9777CB6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFADDD27E9AE133283F4BFCC355134F;
+			remoteInfo = Anchorage;
+		};
+		D69B5AA4673EC7BBE48B4BA5460CD12B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFADDD27E9AE133283F4BFCC355134F;
+			remoteInfo = Anchorage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0779A2C679A244C2964193064CB680B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0EA578C551CFEC3F4275B79C1A35BBCB /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internal.swift; path = Source/Internal.swift; sourceTree = "<group>"; };
+		11DEAC69E2A527A1DDAB1F2C68555AD5 /* CryptoContribute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CryptoContribute.modulemap; sourceTree = "<group>"; };
+		11F3C825A29E0FFA6DF4ACEF220C1078 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14600B3AE9FC2A5FEEEE4A253AE0C2A2 /* Pods-CryptoContribute_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoContribute_Tests-dummy.m"; sourceTree = "<group>"; };
 		166160DA6E8E5E741AF06A4E28E51E39 /* Pods-CryptoContribute_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoContribute_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		16A6104894F2661D2AE0522F740031FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF2EB3D9740A87160676642A2F4DF87 /* Anchorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Anchorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		209086D3B2B32FACB46E64F6625BE8F5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		29DCA2A1D6886D32AED529AEBE052ED0 /* Pods-CryptoContribute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoContribute_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2A2A62C221251E1800CA3278 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConfettiView.swift; path = CryptoContribute/Classes/ConfettiView.swift; sourceTree = "<group>"; };
+		2A2A62C421251EA800CA3278 /* DonateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DonateView.swift; path = CryptoContribute/Classes/DonateView.swift; sourceTree = "<group>"; };
 		334EEB22B2BE287F5A84E469A4EFF2A1 /* Pods-CryptoContribute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoContribute_Example-dummy.m"; sourceTree = "<group>"; };
-		3B7C48D575C0C38FA9CF0C3F1B1AE673 /* CryptoContribute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CryptoContribute.modulemap; sourceTree = "<group>"; };
 		3E89F6F5D803AC0392641FA654C90131 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F38108E06BC354D773737C6E6A9C1B4 /* Anchorage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Anchorage.xcconfig; sourceTree = "<group>"; };
+		434CFF37B7F86E417A6AEF26FB113284 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Source/Priority.swift; sourceTree = "<group>"; };
+		4516120558F2C20076A5E9ED11E5344E /* Pods_CryptoContribute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoContribute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4937390B6B9CD909F5C75F5F80CE8424 /* AnchorGroupProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnchorGroupProvider.swift; path = Source/AnchorGroupProvider.swift; sourceTree = "<group>"; };
 		4E2C2E7514C88EF4E8689E2AA544E127 /* Pods-CryptoContribute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoContribute_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		54BAD520ABD320286B6A007A78D273C6 /* Anchorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Anchorage-umbrella.h"; sourceTree = "<group>"; };
+		59E48BD93F41B1E06536E206ABAE81B9 /* Anchorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Anchorage.modulemap; sourceTree = "<group>"; };
 		5E215D7C804E82805CF279A2FCD69F87 /* Pods-CryptoContribute_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoContribute_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		621E56E5416D8ED52CB48A4D65C0DDCE /* Pods-CryptoContribute_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoContribute_Tests.modulemap"; sourceTree = "<group>"; };
 		64AAD6018749B64FF2B97C6C184D1BD1 /* Pods-CryptoContribute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoContribute_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6DF7835DFB88E8EF3573E7FD66FA6507 /* CryptoContribute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoContribute.framework; path = CryptoContribute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8B909B9827A633D87A370A01DFAB90 /* NSLayoutAnchor+MultiplierConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutAnchor+MultiplierConstraints.swift"; path = "Source/NSLayoutAnchor+MultiplierConstraints.swift"; sourceTree = "<group>"; };
 		7580F3709548B3402B1220101DE863C4 /* Pods-CryptoContribute_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoContribute_Example-frameworks.sh"; sourceTree = "<group>"; };
+		76A022C50B1B3813ADE40C054CFB480E /* CryptoContribute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoContribute.xcconfig; sourceTree = "<group>"; };
 		7737B810612EFC25C9DE7CF3BFC7A088 /* Pods-CryptoContribute_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoContribute_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		79315CEB0751BD5A3FC85F194C205331 /* Pods-CryptoContribute_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoContribute_Example-resources.sh"; sourceTree = "<group>"; };
+		809B971E9E8D67C37F55917BDF19CBCE /* CryptoContribute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoContribute-prefix.pch"; sourceTree = "<group>"; };
+		8177434D9755D5B8D6071CC51644CFBA /* CryptoContribute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoContribute-umbrella.h"; sourceTree = "<group>"; };
 		81DB583AF1715BF4D22065195BB3E285 /* Pods-CryptoContribute_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoContribute_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		84CD762F00B448B2AF5A3B7B6BF7A4B0 /* CryptoContribute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoContribute-umbrella.h"; sourceTree = "<group>"; };
 		8ED7DED2E29CB3148FD8C0ECB0E871AD /* Pods-CryptoContribute_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoContribute_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3C5D507BD769BA03EA0A7E237594BD1 /* CryptoContribute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoContribute-prefix.pch"; sourceTree = "<group>"; };
-		A81D83426B0A5EF8F0D573591F2B7A02 /* Pods_CryptoContribute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoContribute_Example.framework; path = "Pods-CryptoContribute_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2EE253D0AC1D28F11A56514C3602EA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD3ACDCF0CE0A34F9F0F3E9C0E456D35 /* CryptoContribute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoContribute-dummy.m"; sourceTree = "<group>"; };
-		C2A7F5C604B8439030DED99D6ACA003E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CryptoContribute/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940E7225427753689A7B5E82075930D8 /* Anchorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Anchorage-dummy.m"; sourceTree = "<group>"; };
+		9496B6CFAB4FE0271FBD92E753B3AE67 /* CryptoContribute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoContribute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4CB765936F8060E57F6784BB8441E9 /* CryptoContribute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoContribute-dummy.m"; sourceTree = "<group>"; };
+		ADD43F4717C16AA447695C94724F7134 /* Anchorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Anchorage-prefix.pch"; sourceTree = "<group>"; };
+		B090E47A50AE51CA6509EB1BF4D36524 /* Compatability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compatability.swift; path = Source/Compatability.swift; sourceTree = "<group>"; };
 		C74D8D5AA52D03E954E4F8B9D93550EB /* Pods-CryptoContribute_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoContribute_Example-umbrella.h"; sourceTree = "<group>"; };
-		C7A59E424C0974DE174F50202FD4CD47 /* Pods_CryptoContribute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoContribute_Tests.framework; path = "Pods-CryptoContribute_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85ED28BFCF912804DAF74C9A2345E00 /* Anchorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchorage.swift; path = Source/Anchorage.swift; sourceTree = "<group>"; };
+		CFB90B3866CE1D2225410520B7B9527E /* Pods_CryptoContribute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoContribute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37DC32FA1D14F08A7F6BD7EF96BCF38 /* Pods-CryptoContribute_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoContribute_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D580D0F31F1FCD053D1290E4A72528C2 /* CryptoContribute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoContribute.xcconfig; sourceTree = "<group>"; };
 		D5B775F534E09D27524C388E5B235A89 /* Pods-CryptoContribute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoContribute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A4D4CE40E7C5FE39635AE79050E78E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5F17E552D99196F7F5084B02C0F88F8 /* Pods-CryptoContribute_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoContribute_Tests-resources.sh"; sourceTree = "<group>"; };
+		EF3341C5413E46391C3EBB1C6241B07F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F249CB3924C1662F96A02EC6698F742C /* Pods-CryptoContribute_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoContribute_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5D47908F66095D337C4B188C3F28B08 /* Anchorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Anchorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA0448778C13B0326C4A05BF00DB798 /* DonateViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DonateViewController.swift; path = CryptoContribute/Classes/DonateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,25 +119,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		193FB7034780D5B28CAD14D42BE99ED5 /* Frameworks */ = {
+		4C0A8D0892092FFD7262643BD478EEE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E9F016F90D3A05CC73AE8CEB9F98F0 /* Foundation.framework in Frameworks */,
+				775ADBEE76EF58D505A6EE4A4F19BC3D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B04A74C841434AF740014ABA3AFAA43 /* Frameworks */ = {
+		6E5A8823EAD0F9B53FD6B3CE5E100131 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB0D47B728E46B0AA727AE6F7902AB9B /* Foundation.framework in Frameworks */,
+				B94DE28AC4F2B3FD5CCCF3C32B95A542 /* Anchorage.framework in Frameworks */,
+				38E901AFF90729F16BC3C93C0978692D /* Foundation.framework in Frameworks */,
+				58504CD591EE1F726655925AF57F5832 /* MapKit.framework in Frameworks */,
+				EC9598D9A598A702321F68E1777FF07A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26EE20368E1A24217E3B6ACB7659E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41E99E23C8DF344F384A4AC3D91D2FE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A21B28C3407C3D6AC00E8A42E085833 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59E48BD93F41B1E06536E206ABAE81B9 /* Anchorage.modulemap */,
+				3F38108E06BC354D773737C6E6A9C1B4 /* Anchorage.xcconfig */,
+				940E7225427753689A7B5E82075930D8 /* Anchorage-dummy.m */,
+				ADD43F4717C16AA447695C94724F7134 /* Anchorage-prefix.pch */,
+				54BAD520ABD320286B6A007A78D273C6 /* Anchorage-umbrella.h */,
+				D7A4D4CE40E7C5FE39635AE79050E78E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Anchorage";
+			sourceTree = "<group>";
+		};
 		12253271E824650FAE85473D349688A3 /* Pods-CryptoContribute_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,26 +181,48 @@
 			path = "Target Support Files/Pods-CryptoContribute_Example";
 			sourceTree = "<group>";
 		};
+		2155433BD04370B15917F46088D17478 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF3341C5413E46391C3EBB1C6241B07F /* Foundation.framework */,
+				209086D3B2B32FACB46E64F6625BE8F5 /* MapKit.framework */,
+				0779A2C679A244C2964193064CB680B3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		236C48876DE1D76E068DFC69FEE89947 /* Anchorage */ = {
+			isa = PBXGroup;
+			children = (
+				C85ED28BFCF912804DAF74C9A2345E00 /* Anchorage.swift */,
+				4937390B6B9CD909F5C75F5F80CE8424 /* AnchorGroupProvider.swift */,
+				B090E47A50AE51CA6509EB1BF4D36524 /* Compatability.swift */,
+				0EA578C551CFEC3F4275B79C1A35BBCB /* Internal.swift */,
+				6E8B909B9827A633D87A370A01DFAB90 /* NSLayoutAnchor+MultiplierConstraints.swift */,
+				434CFF37B7F86E417A6AEF26FB113284 /* Priority.swift */,
+				0A21B28C3407C3D6AC00E8A42E085833 /* Support Files */,
+			);
+			path = Anchorage;
+			sourceTree = "<group>";
+		};
+		38197B1F9F4BC9E83DC1BC638341F4A9 /* CryptoContribute */ = {
+			isa = PBXGroup;
+			children = (
+				6F73E0E46C7F7C0EB6CD8284F13B9BD6 /* Support Files */,
+				FAA0448778C13B0326C4A05BF00DB798 /* DonateViewController.swift */,
+				2A2A62C221251E1800CA3278 /* ConfettiView.swift */,
+				2A2A62C421251EA800CA3278 /* DonateView.swift */,
+			);
+			name = CryptoContribute;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		419A7E70101EC032A7FB7C2996E9B272 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5F593855BA1B974DBBF54B0954710921 /* CryptoContribute */,
+				38197B1F9F4BC9E83DC1BC638341F4A9 /* CryptoContribute */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4510522ADC3A0CED794738E4222903B1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B7C48D575C0C38FA9CF0C3F1B1AE673 /* CryptoContribute.modulemap */,
-				D580D0F31F1FCD053D1290E4A72528C2 /* CryptoContribute.xcconfig */,
-				BD3ACDCF0CE0A34F9F0F3E9C0E456D35 /* CryptoContribute-dummy.m */,
-				A3C5D507BD769BA03EA0A7E237594BD1 /* CryptoContribute-prefix.pch */,
-				84CD762F00B448B2AF5A3B7B6BF7A4B0 /* CryptoContribute-umbrella.h */,
-				B2EE253D0AC1D28F11A56514C3602EA4 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CryptoContribute";
 			sourceTree = "<group>";
 		};
 		467FEDBBFE0933AFB4A37764A583F598 /* Pods-CryptoContribute_Tests */ = {
@@ -150,22 +243,46 @@
 			path = "Target Support Files/Pods-CryptoContribute_Tests";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		651C282E8493DFBEB9CDC1681FA5DB25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				1EF2EB3D9740A87160676642A2F4DF87 /* Anchorage.framework */,
+				2155433BD04370B15917F46088D17478 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5F593855BA1B974DBBF54B0954710921 /* CryptoContribute */ = {
+		6F73E0E46C7F7C0EB6CD8284F13B9BD6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2A7F5C604B8439030DED99D6ACA003E /* ReplaceMe.swift */,
-				4510522ADC3A0CED794738E4222903B1 /* Support Files */,
+				11DEAC69E2A527A1DDAB1F2C68555AD5 /* CryptoContribute.modulemap */,
+				76A022C50B1B3813ADE40C054CFB480E /* CryptoContribute.xcconfig */,
+				AC4CB765936F8060E57F6784BB8441E9 /* CryptoContribute-dummy.m */,
+				809B971E9E8D67C37F55917BDF19CBCE /* CryptoContribute-prefix.pch */,
+				8177434D9755D5B8D6071CC51644CFBA /* CryptoContribute-umbrella.h */,
+				11F3C825A29E0FFA6DF4ACEF220C1078 /* Info.plist */,
 			);
-			name = CryptoContribute;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CryptoContribute";
+			sourceTree = "<group>";
+		};
+		6F7D6AFE952391E4958D5FF96DF8BFCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				236C48876DE1D76E068DFC69FEE89947 /* Anchorage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		714572C20D654FA6D6DD80D6AF35B091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D47908F66095D337C4B188C3F28B08 /* Anchorage.framework */,
+				9496B6CFAB4FE0271FBD92E753B3AE67 /* CryptoContribute.framework */,
+				4516120558F2C20076A5E9ED11E5344E /* Pods_CryptoContribute_Example.framework */,
+				CFB90B3866CE1D2225410520B7B9527E /* Pods_CryptoContribute_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -173,28 +290,11 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				419A7E70101EC032A7FB7C2996E9B272 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				83626DE5CD3F651D4089ACB05C960AEA /* Products */,
+				651C282E8493DFBEB9CDC1681FA5DB25 /* Frameworks */,
+				6F7D6AFE952391E4958D5FF96DF8BFCA /* Pods */,
+				714572C20D654FA6D6DD80D6AF35B091 /* Products */,
 				F09F95A800054F9ED1239CDD3573834B /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		83626DE5CD3F651D4089ACB05C960AEA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6DF7835DFB88E8EF3573E7FD66FA6507 /* CryptoContribute.framework */,
-				A81D83426B0A5EF8F0D573591F2B7A02 /* Pods_CryptoContribute_Example.framework */,
-				C7A59E424C0974DE174F50202FD4CD47 /* Pods_CryptoContribute_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F09F95A800054F9ED1239CDD3573834B /* Targets Support Files */ = {
@@ -209,11 +309,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		468548095C6E4418785CC56911E0A966 /* Headers */ = {
+		1A3A027CEC43D5CCC184E26CCDB27ED6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE8A517DCD291ABBBA7381C2DD5FDF7 /* CryptoContribute-umbrella.h in Headers */,
+				36B75922D81D9E68B269B7F50C227C0B /* Anchorage-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,17 +325,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		871B4B72DD57AF232E579B393414F96A /* Headers */ = {
+		4E4FE9AD37B14634586D8DF6D1802AD7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D31F1AE4358F67D74D5D195C7A7D5A0A /* Pods-CryptoContribute_Example-umbrella.h in Headers */,
+				35E5FD6C7914B7BD6376B673CFE1D466 /* CryptoContribute-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69479FE3603F1BE2169C29C6B7419949 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D9D94BA87A84F5CEF1EBF6E6E976B2 /* Pods-CryptoContribute_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		298DC144D6BF572308D72A7C85546403 /* Pods-CryptoContribute_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D318F18F1C8AABB55F8D41FF0F4F56EC /* Build configuration list for PBXNativeTarget "Pods-CryptoContribute_Example" */;
+			buildPhases = (
+				E1F3C3BCA62FAD253596012B7F837D49 /* Sources */,
+				B26EE20368E1A24217E3B6ACB7659E85 /* Frameworks */,
+				69479FE3603F1BE2169C29C6B7419949 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				316BC11328AF43D2A04D2726CEAEDB13 /* PBXTargetDependency */,
+				F89419C352478B9F1F8ED877676F5CA9 /* PBXTargetDependency */,
+			);
+			name = "Pods-CryptoContribute_Example";
+			productName = "Pods-CryptoContribute_Example";
+			productReference = 4516120558F2C20076A5E9ED11E5344E /* Pods_CryptoContribute_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		71E4428C2A714B1F87258ED568ED0AD7 /* Pods-CryptoContribute_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94E6F660A5157149836AAAEA6A524A47 /* Build configuration list for PBXNativeTarget "Pods-CryptoContribute_Tests" */;
@@ -250,42 +377,42 @@
 			);
 			name = "Pods-CryptoContribute_Tests";
 			productName = "Pods-CryptoContribute_Tests";
-			productReference = C7A59E424C0974DE174F50202FD4CD47 /* Pods_CryptoContribute_Tests.framework */;
+			productReference = CFB90B3866CE1D2225410520B7B9527E /* Pods_CryptoContribute_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BFFBD3938A43A63F0E48457189EC8D1A /* Pods-CryptoContribute_Example */ = {
+		D4965DE720B955BA060D369EF794D4F9 /* CryptoContribute */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0EA5664B9B558BB4AD1877D535428A5 /* Build configuration list for PBXNativeTarget "Pods-CryptoContribute_Example" */;
+			buildConfigurationList = 15EBDD62E2B4DB2399D68195CDCC9F5B /* Build configuration list for PBXNativeTarget "CryptoContribute" */;
 			buildPhases = (
-				9439470B13959DA8D6E2F946DC8DB2FB /* Sources */,
-				7B04A74C841434AF740014ABA3AFAA43 /* Frameworks */,
-				871B4B72DD57AF232E579B393414F96A /* Headers */,
+				24312D07ACC37B466F56ED2655C934B3 /* Sources */,
+				6E5A8823EAD0F9B53FD6B3CE5E100131 /* Frameworks */,
+				4E4FE9AD37B14634586D8DF6D1802AD7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DBA637092A51F548FE7C71622103502F /* PBXTargetDependency */,
-			);
-			name = "Pods-CryptoContribute_Example";
-			productName = "Pods-CryptoContribute_Example";
-			productReference = A81D83426B0A5EF8F0D573591F2B7A02 /* Pods_CryptoContribute_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F476624FB318BA4E28FFF733FE194F49 /* CryptoContribute */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7888847983EEBFF961716DA77A9D739E /* Build configuration list for PBXNativeTarget "CryptoContribute" */;
-			buildPhases = (
-				7EFE6AC3BBE3C507E92214D084E28EC9 /* Sources */,
-				193FB7034780D5B28CAD14D42BE99ED5 /* Frameworks */,
-				468548095C6E4418785CC56911E0A966 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				58CB7D4025DCC9F698F39D1CDEAE4EA9 /* PBXTargetDependency */,
 			);
 			name = CryptoContribute;
 			productName = CryptoContribute;
-			productReference = 6DF7835DFB88E8EF3573E7FD66FA6507 /* CryptoContribute.framework */;
+			productReference = 9496B6CFAB4FE0271FBD92E753B3AE67 /* CryptoContribute.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDFADDD27E9AE133283F4BFCC355134F /* Anchorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AEFB60A0EB7CDB15D559D88705B519 /* Build configuration list for PBXNativeTarget "Anchorage" */;
+			buildPhases = (
+				6BA801A9D0E51F7388F26373D5ACF6FA /* Sources */,
+				4C0A8D0892092FFD7262643BD478EEE3 /* Frameworks */,
+				1A3A027CEC43D5CCC184E26CCDB27ED6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anchorage;
+			productName = Anchorage;
+			productReference = F5D47908F66095D337C4B188C3F28B08 /* Anchorage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -305,32 +432,41 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 83626DE5CD3F651D4089ACB05C960AEA /* Products */;
+			productRefGroup = 714572C20D654FA6D6DD80D6AF35B091 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F476624FB318BA4E28FFF733FE194F49 /* CryptoContribute */,
-				BFFBD3938A43A63F0E48457189EC8D1A /* Pods-CryptoContribute_Example */,
+				EDFADDD27E9AE133283F4BFCC355134F /* Anchorage */,
+				D4965DE720B955BA060D369EF794D4F9 /* CryptoContribute */,
+				298DC144D6BF572308D72A7C85546403 /* Pods-CryptoContribute_Example */,
 				71E4428C2A714B1F87258ED568ED0AD7 /* Pods-CryptoContribute_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7EFE6AC3BBE3C507E92214D084E28EC9 /* Sources */ = {
+		24312D07ACC37B466F56ED2655C934B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC66132D5EE76E385AD7031E27AE1AEA /* CryptoContribute-dummy.m in Sources */,
-				27FDE66F618154F3A44B9439E1FA320A /* ReplaceMe.swift in Sources */,
+				72D29C28B07DBF10EDF381ABC3661CBA /* CryptoContribute-dummy.m in Sources */,
+				9BA1B9ED977821453A2FC63D05B33C1C /* DonateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9439470B13959DA8D6E2F946DC8DB2FB /* Sources */ = {
+		6BA801A9D0E51F7388F26373D5ACF6FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752437AA90A8768F6493F9699629DE71 /* Pods-CryptoContribute_Example-dummy.m in Sources */,
+				068E1D81BF6F2EB48E06E1E5988FE8D5 /* Anchorage-dummy.m in Sources */,
+				6929A18231635B7AC9E1C64F2C6A9729 /* Anchorage.swift in Sources */,
+				2A2A62C521251EA800CA3278 /* DonateView.swift in Sources */,
+				101784DB4E9011A49B3ECBD44999A3AB /* AnchorGroupProvider.swift in Sources */,
+				6D1B90FADCEC885E68A1AF6B4C241740 /* Compatability.swift in Sources */,
+				E0A8B2C60396294C63C89C4DE1C7C3C2 /* Internal.swift in Sources */,
+				2A2A62C321251E1800CA3278 /* ConfettiView.swift in Sources */,
+				2510A66801F2937A4FA56225D6A50FDB /* NSLayoutAnchor+MultiplierConstraints.swift in Sources */,
+				AF440B73367770EAB117472F6C328A23 /* Priority.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,21 +478,131 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1F3C3BCA62FAD253596012B7F837D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB993E1EC46FDBEC00C1DA2CA6D84AE6 /* Pods-CryptoContribute_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DBA637092A51F548FE7C71622103502F /* PBXTargetDependency */ = {
+		316BC11328AF43D2A04D2726CEAEDB13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Anchorage;
+			target = EDFADDD27E9AE133283F4BFCC355134F /* Anchorage */;
+			targetProxy = A6073BEA73FA8898D7E9849D9777CB6C /* PBXContainerItemProxy */;
+		};
+		58CB7D4025DCC9F698F39D1CDEAE4EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Anchorage;
+			target = EDFADDD27E9AE133283F4BFCC355134F /* Anchorage */;
+			targetProxy = D69B5AA4673EC7BBE48B4BA5460CD12B /* PBXContainerItemProxy */;
+		};
+		F89419C352478B9F1F8ED877676F5CA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CryptoContribute;
-			target = F476624FB318BA4E28FFF733FE194F49 /* CryptoContribute */;
-			targetProxy = 085DA1D958E2F7676E3226666FC1BB12 /* PBXContainerItemProxy */;
+			target = D4965DE720B955BA060D369EF794D4F9 /* CryptoContribute */;
+			targetProxy = 931E305BE614697D4A9369C6F25310F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		21347C3A4BFC81F566F506FD200FF3AC /* Debug */ = {
+		05026236123C1B3AA133E345FDCEB53A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D580D0F31F1FCD053D1290E4A72528C2 /* CryptoContribute.xcconfig */;
+			baseConfigurationReference = 3F38108E06BC354D773737C6E6A9C1B4 /* Anchorage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Anchorage/Anchorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Anchorage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Anchorage/Anchorage.modulemap";
+				PRODUCT_NAME = Anchorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2B3BFC63628C1DB75965322EF9AE8155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A022C50B1B3813ADE40C054CFB480E /* CryptoContribute.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -370,7 +616,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CryptoContribute/CryptoContribute-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CryptoContribute/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CryptoContribute/CryptoContribute.modulemap";
 				PRODUCT_NAME = CryptoContribute;
@@ -385,7 +631,203 @@
 			};
 			name = Debug;
 		};
-		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+		7B658C6A9DA88DC90B32C16367921C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A022C50B1B3813ADE40C054CFB480E /* CryptoContribute.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoContribute/CryptoContribute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoContribute/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CryptoContribute/CryptoContribute.modulemap";
+				PRODUCT_NAME = CryptoContribute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0BF811ABD73647656D92E7D614C6651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AAD6018749B64FF2B97C6C184D1BD1 /* Pods-CryptoContribute_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoContribute_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoContribute_Tests/Pods-CryptoContribute_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CryptoContribute_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8245936E36E176A15608D149AE18D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2C2E7514C88EF4E8689E2AA544E127 /* Pods-CryptoContribute_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoContribute_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoContribute_Example/Pods-CryptoContribute_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CryptoContribute_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3D7583577B0A36CC36E67FF90A3ECAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F38108E06BC354D773737C6E6A9C1B4 /* Anchorage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Anchorage/Anchorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Anchorage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Anchorage/Anchorage.modulemap";
+				PRODUCT_NAME = Anchorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE873F6E67B613F344995A0AE72FE4EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B775F534E09D27524C388E5B235A89 /* Pods-CryptoContribute_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoContribute_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoContribute_Tests/Pods-CryptoContribute_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CryptoContribute_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C83851EA64A3A39184F1C78E54464C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DCA2A1D6886D32AED529AEBE052ED0 /* Pods-CryptoContribute_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoContribute_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoContribute_Example/Pods-CryptoContribute_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CryptoContribute_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,7 +879,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,246 +890,23 @@
 			};
 			name = Debug;
 		};
-		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		CA4773273FF306D8887EF19A3F8A991E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5B775F534E09D27524C388E5B235A89 /* Pods-CryptoContribute_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CryptoContribute_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CryptoContribute_Tests/Pods-CryptoContribute_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CryptoContribute_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CDE8B3BC6A8B19D4064D0B699357CAD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D580D0F31F1FCD053D1290E4A72528C2 /* CryptoContribute.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CryptoContribute/CryptoContribute-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CryptoContribute/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CryptoContribute/CryptoContribute.modulemap";
-				PRODUCT_NAME = CryptoContribute;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CEBADE8D6582E0430B0C54301A060797 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E2C2E7514C88EF4E8689E2AA544E127 /* Pods-CryptoContribute_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CryptoContribute_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CryptoContribute_Example/Pods-CryptoContribute_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CryptoContribute_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D9A4E6DD89B63BF62F35682BB4A6543C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29DCA2A1D6886D32AED529AEBE052ED0 /* Pods-CryptoContribute_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CryptoContribute_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CryptoContribute_Example/Pods-CryptoContribute_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CryptoContribute_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FCD6DEE415B456F431FD540F4601745C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64AAD6018749B64FF2B97C6C184D1BD1 /* Pods-CryptoContribute_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CryptoContribute_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CryptoContribute_Tests/Pods-CryptoContribute_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CryptoContribute_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		15EBDD62E2B4DB2399D68195CDCC9F5B /* Build configuration list for PBXNativeTarget "CryptoContribute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
-				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+				2B3BFC63628C1DB75965322EF9AE8155 /* Debug */,
+				7B658C6A9DA88DC90B32C16367921C45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7888847983EEBFF961716DA77A9D739E /* Build configuration list for PBXNativeTarget "CryptoContribute" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21347C3A4BFC81F566F506FD200FF3AC /* Debug */,
-				CDE8B3BC6A8B19D4064D0B699357CAD9 /* Release */,
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -695,17 +914,26 @@
 		94E6F660A5157149836AAAEA6A524A47 /* Build configuration list for PBXNativeTarget "Pods-CryptoContribute_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA4773273FF306D8887EF19A3F8A991E /* Debug */,
-				FCD6DEE415B456F431FD540F4601745C /* Release */,
+				BE873F6E67B613F344995A0AE72FE4EC /* Debug */,
+				A0BF811ABD73647656D92E7D614C6651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0EA5664B9B558BB4AD1877D535428A5 /* Build configuration list for PBXNativeTarget "Pods-CryptoContribute_Example" */ = {
+		A3AEFB60A0EB7CDB15D559D88705B519 /* Build configuration list for PBXNativeTarget "Anchorage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9A4E6DD89B63BF62F35682BB4A6543C /* Debug */,
-				CEBADE8D6582E0430B0C54301A060797 /* Release */,
+				B3D7583577B0A36CC36E67FF90A3ECAE /* Debug */,
+				05026236123C1B3AA133E345FDCEB53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D318F18F1C8AABB55F8D41FF0F4F56EC /* Build configuration list for PBXNativeTarget "Pods-CryptoContribute_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83851EA64A3A39184F1C78E54464C21 /* Debug */,
+				A8245936E36E176A15608D149AE18D8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
