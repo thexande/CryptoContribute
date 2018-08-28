@@ -23,7 +23,7 @@ enum DonationCurrency {
 }
 
 public final class DonateViewController: UIViewController {
-    let confettiView = UIView()
+    let confettiView = ConfettiView()
     let party = UILabel()
     let header = UILabel()
     let woot = UILabel()
@@ -53,7 +53,10 @@ public final class DonateViewController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         modalPresentationStyle = .overCurrentContext
-//        confettiView.startConfetti()
+        
+         view.addSubview(confettiView)
+        confettiView.edgeAnchors == view.edgeAnchors
+
         view.backgroundColor = .black
         view.clipsToBounds = true
         view.addSubview(confettiView)

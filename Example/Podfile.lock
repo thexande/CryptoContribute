@@ -8,15 +8,20 @@ PODS:
 DEPENDENCIES:
   - CryptoContribute (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Anchorage
+    - QRCode
+
 EXTERNAL SOURCES:
   CryptoContribute:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   Anchorage: f855157310859280c706cc0b9c9281c21702f515
-  CryptoContribute: 4e7f19f690b85eb98c97e53cb260d74e6053d88c
+  CryptoContribute: ae28c4505dadb506c003248f7a33a7ddacf27ac7
   QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
 
 PODFILE CHECKSUM: 9fbc8a19fe2a57cc2e8d51a882d466676de8f060
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

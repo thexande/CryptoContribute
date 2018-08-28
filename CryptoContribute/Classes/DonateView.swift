@@ -10,21 +10,21 @@ final class DonateView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        btc.setImage(UIImage(named: "btc"), for: .normal)
+        btc.setImage(UIImage(podAssetName: "btc"), for: .normal)
         btc.contentMode = .scaleAspectFit
 
         btc.addAction { [weak self] in
             self?.dispatcher?.dispatch(.presentDonationOptions(.btc))
         }
 
-        eth.setImage(UIImage(named: "eth"), for: .normal)
+        eth.setImage(UIImage(podAssetName: "eth"), for: .normal)
         eth.contentMode = .scaleAspectFit
 
         eth.addAction { [weak self] in
             self?.dispatcher?.dispatch(.presentDonationOptions(.eth))
         }
 
-        ltc.setImage(UIImage(named: "litecoin"), for: .normal)
+        ltc.setImage(UIImage(podAssetName: "litecoin"), for: .normal)
         ltc.contentMode = .scaleAspectFit
 
         ltc.addAction { [weak self] in

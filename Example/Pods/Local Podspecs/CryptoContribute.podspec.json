@@ -21,7 +21,7 @@
   "source_files": "CryptoContribute/Classes/**/*",
   "resource_bundles": {
     "CryptoContribute": [
-      "CryptoContribute/Resources/Assets.xcassets"
+      "CryptoContribute/Assets/Assets.xcassets"
     ]
   },
   "frameworks": "UIKit",

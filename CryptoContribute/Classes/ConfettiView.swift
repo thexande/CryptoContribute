@@ -24,7 +24,7 @@
         UIColor(red:0.58, green:0.39, blue:0.55, alpha:1.0)]
  }
 
- class ConfettiView: UIView {
+ public class ConfettiView: UIView {
     var properties: ConfettiCardProperties
     var emitter: CAEmitterLayer!
     public var colors: [UIColor]!
@@ -75,7 +75,7 @@
 
         switch type {
         case .confetti:
-            return UIImage(named: "confetti")
+            return UIImage(podAssetName: "confetti")
         case .triangle:
             return #imageLiteral(resourceName: "triangle")
         case .star:
