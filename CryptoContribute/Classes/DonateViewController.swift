@@ -96,7 +96,6 @@ public final class DonateViewController: UIViewController {
         woot.textAlignment = .center
         woot.text = "Moon!"
 
-//        confettiView.startConfetti()
 
         view.addSubview(dismiss)
         dismiss.horizontalAnchors == view.horizontalAnchors + 18
